@@ -1,0 +1,270 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:vm="using:Aetherwake.ViewModels"
+			 xmlns:models="using:Aetherwake.Models"
+			 xmlns:converters="using:Avalonia.Controls.Converters"
+			 xmlns:progRing="clr-namespace:AvaloniaProgressRing;assembly=AvaloniaProgressRing"
+			 x:Class="Aetherwake.Views.GeneratePresetImagesView"
+			 x:DataType="vm:GeneratePresetImagesViewModel">
+	<UserControl.Resources>
+		<converters:EnumToBoolConverter x:Key="EnumToBoolConverter"/>
+	</UserControl.Resources>
+	<DockPanel HorizontalSpacing="10"
+			   IsEnabled="{Binding !ShowProgressRing}">
+		<ScrollViewer
+		DockPanel.Dock="Left"
+		Margin="20">
+			<Grid
+			RowSpacing="10"
+			Margin="10">
+				<Grid.RowDefinitions>
+					<RowDefinition/>
+					<RowDefinition/>
+					<RowDefinition/>
+					<RowDefinition/>
+					<RowDefinition/>
+					<RowDefinition/>
+					<RowDefinition/>
+					<RowDefinition/>
+				</Grid.RowDefinitions>
+
+				<!-- ProgRing duplicates itself if only IsVisible changes.
+				Change IsActive as well.-->
+				<progRing:ProgressRing
+				Grid.RowSpan="8"
+				IsVisible="{Binding ShowProgressRing}"
+				Width="80"
+				Height="80"
+				IsActive="{Binding ShowProgressRing}"
+				HorizontalAlignment="Center"
+				VerticalAlignment="Center"
+				Foreground="Green"/>
+				<!-- Color Filter-->
+				<Grid
+				Grid.Row="0"
+				Name="ColorFilterGrid"
+				RowSpacing="10">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition/>
+					</Grid.RowDefinitions>
+					<TextBlock Grid.Row="0" Text="Color Filter"/>
+					<StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" VerticalAlignment="Top">
+						<RadioButton
+						Content="Vanilla"
+						IsChecked="{Binding ColorFilter,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+ColorFilter.Vanilla }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Summer"
+						IsChecked="{Binding ColorFilter,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+ColorFilter.Summer }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Winter"
+						IsChecked="{Binding ColorFilter,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+ColorFilter.Winter }}"
+						Command="{Binding ChangeImageCommand}"/>
+					</StackPanel>
+				</Grid>
+
+				<!-- Foundation -->
+				<Grid
+				Grid.Row="1"
+				Name="FoundationGrid"
+				RowSpacing="10">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition/>
+					</Grid.RowDefinitions>
+					<TextBlock Grid.Row="0" Text="Foundation"/>
+					<StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" VerticalAlignment="Top">
+						<RadioButton
+						Content="Vanilla"
+						IsChecked="{Binding Foundation,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Foundation.Vanilla }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Overdose"
+						IsChecked="{Binding Foundation,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Foundation.Overdose }}"
+						Command="{Binding ChangeImageCommand}"/>
+					</StackPanel>
+				</Grid>
+
+				<!-- Brightness -->
+				<Grid
+				Grid.Row="2"
+				Name="BrightnessGrid"
+				RowSpacing="10">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition/>
+					</Grid.RowDefinitions>
+					<TextBlock Grid.Row="0" Text="Brightness"/>
+					<StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" VerticalAlignment="Top">
+						<RadioButton
+						Content="Dim"
+						IsChecked="{Binding Brightness,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Brightness.Dim }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Normal"
+						IsChecked="{Binding Brightness,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Brightness.Normal }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Vivid"
+						IsChecked="{Binding Brightness,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Brightness.Vivid }}"
+						Command="{Binding ChangeImageCommand}"/>
+					</StackPanel>
+				</Grid>
+
+				<!-- Contrast -->
+				<Grid
+				Grid.Row="3"
+				Name="ContrastGrid"
+				RowSpacing="10">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition/>
+					</Grid.RowDefinitions>
+					<TextBlock Grid.Row="0" Text="Contrast"/>
+					<StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" VerticalAlignment="Top">
+						<RadioButton
+						Content="Soft"
+						IsChecked="{Binding Contrast,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Contrast.Soft }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Balanced"
+						IsChecked="{Binding Contrast,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Contrast.Balanced }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Sharp"
+						IsChecked="{Binding Contrast,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Contrast.Sharp }}"
+						Command="{Binding ChangeImageCommand}"/>
+					</StackPanel>
+				</Grid>
+
+				<!-- Saturation -->
+				<Grid
+				Grid.Row="4"
+				Name="SaturationGrid"
+				RowSpacing="10">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition/>
+					</Grid.RowDefinitions>
+					<TextBlock Grid.Row="0" Text="Saturation"/>
+					<StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" VerticalAlignment="Top">
+						<RadioButton
+						Content="Muted"
+						IsChecked="{Binding Saturation,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Saturation.Muted }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Natural"
+						IsChecked="{Binding Saturation,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Saturation.Natural }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Rich"
+						IsChecked="{Binding Saturation,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+Saturation.Rich }}"
+						Command="{Binding ChangeImageCommand}"/>
+					</StackPanel>
+				</Grid>
+
+				<!-- Ray Tracing -->
+				<Grid
+				Grid.Row="5"
+				Name="RayTracingGrid"
+				RowSpacing="10">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition/>
+					</Grid.RowDefinitions>
+					<TextBlock Grid.Row="0" Text="Ray Tracing"/>
+					<StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" VerticalAlignment="Top">
+						<RadioButton
+						Content="Off"
+						IsChecked="{Binding RayTracing,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+RayTracing.Off }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Low"
+						IsChecked="{Binding RayTracing,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+RayTracing.Low }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="Medium"
+						IsChecked="{Binding RayTracing,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+RayTracing.Medium }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<RadioButton
+						Content="High"
+						IsChecked="{Binding RayTracing,
+						Converter={StaticResource EnumToBoolConverter},
+						ConverterParameter={x:Static models:INIGenerator+RayTracing.High }}"
+						Command="{Binding ChangeImageCommand}"/>
+						<Grid IsVisible="{Binding AreImmerseProShadersPresent}">
+							<RadioButton
+							Content="Ultra"
+							IsChecked="{Binding RayTracing,
+							Converter={StaticResource EnumToBoolConverter},
+							ConverterParameter={x:Static models:INIGenerator+RayTracing.Ultra }}"
+							Command="{Binding ChangeImageCommand}"/>
+						</Grid>
+						<Grid IsVisible="{Binding !AreImmerseProShadersPresent}">
+							<RadioButton
+							Content="Ultra"
+							IsEnabled="false"
+							IsChecked="{Binding RayTracing,
+							Converter={StaticResource EnumToBoolConverter},
+							ConverterParameter={x:Static models:INIGenerator+RayTracing.Ultra }}"
+							Command="{Binding ChangeImageCommand}"
+							ToolTip.Tip="Enable true ray tracing by downloading Immerse Pro shaders"
+							ToolTip.ShowOnDisabled="true"/>
+						</Grid>
+					</StackPanel>
+				</Grid>
+			</Grid>
+		</ScrollViewer>
+		<StackPanel
+		Spacing="10"
+		Orientation="Horizontal"
+		DockPanel.Dock="Bottom"
+		Margin="10"
+		HorizontalAlignment="Right">
+			<Button
+			IsEnabled="True"
+			Content="Save Preset"
+			Command="{Binding SavePresetCommand}"/>
+		</StackPanel>
+		<Image Source="{Binding PhotoToDisplay}"/>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,2404 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<UltimaTechniques source="C:\Users\dhoeh\AppData\Local\Temp\SIA-Launcher\eden ULTIMA\release\mod\Presets" techniqueCount="65" totalVariants="288">
+  <Technique name="AdaptiveFog.fx" variants="2">
+    <Variant index="1">
+      <Param name="BloomPower" value="10.000000" />
+      <Param name="BloomThreshold" value="10.250000" />
+      <Param name="BloomWidth" value="0.200000" />
+      <Param name="FogColor" value="0.112744,0.112744,0.112745" />
+      <Param name="FogCurve" value="1.500000" />
+      <Param name="FogStart" value="0.050000" />
+      <Param name="MaxFogFactor" value="0.857000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="BloomPower" value="2.70000005e+00" />
+      <Param name="BloomThreshold" value="2.80000000e+01" />
+      <Param name="BloomWidth" value="1.59999996e-01" />
+      <Param name="FogColor" value="0.00000000e+00,0.00000000e+00,0.00000000e+00" />
+      <Param name="FogCurve" value="1.19000006e+00" />
+      <Param name="FogStart" value="0.050000" />
+      <Param name="MaxFogFactor" value="2.63000011e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="AdaptiveSharpen.fx" variants="2">
+    <Variant index="1">
+      <Param name="curveslope" value="0.500000" />
+      <Param name="curve_height" value="0.380000" />
+      <Param name="D_compr_high" value="0.500000" />
+      <Param name="D_compr_low" value="0.250000" />
+      <Param name="D_overshoot" value="0.009000" />
+      <Param name="L_compr_high" value="0.334000" />
+      <Param name="L_compr_low" value="0.167000" />
+      <Param name="L_overshoot" value="0.003000" />
+      <Param name="pm_p" value="0.700000" />
+      <Param name="scale_cs" value="0.056000" />
+      <Param name="scale_lim" value="0.100000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="curveslope" value="0.500000" />
+      <Param name="curve_height" value="6.49999976e-01" />
+      <Param name="D_compr_high" value="0.500000" />
+      <Param name="D_compr_low" value="0.250000" />
+      <Param name="D_overshoot" value="0.009000" />
+      <Param name="L_compr_high" value="0.334000" />
+      <Param name="L_compr_low" value="0.167000" />
+      <Param name="L_overshoot" value="0.003000" />
+      <Param name="pm_p" value="0.700000" />
+      <Param name="scale_cs" value="0.056000" />
+      <Param name="scale_lim" value="0.100000" />
+    </Variant>
+  </Technique>
+  <Technique name="AdaptiveTint.fx" variants="2">
+    <Variant index="1">
+      <Param name="f3UICurveBlackParam" value="5.40000021e-01,0.00000000e+00,0.00000000e+00" />
+      <Param name="f3UICurveWhiteParam" value="0.350000,1.431000,1.280000" />
+      <Param name="fUIColorTempScaling" value="2.38999963e+00" />
+      <Param name="fUIStrength" value="4.93000001e-01" />
+      <Param name="fUITintCold" value="0.020000,0.040000,0.040000" />
+      <Param name="fUITintWarm" value="0.040000,0.040000,0.020000" />
+      <Param name="iUIBlackLevelFormula" value="1" />
+      <Param name="iUIWhiteLevelFormula" value="1" />
+    </Variant>
+    <Variant index="2">
+      <Param name="f3UICurveBlackParam" value="5.40000021e-01,0.00000000e+00,0.00000000e+00" />
+      <Param name="f3UICurveWhiteParam" value="0.350000,1.431000,1.280000" />
+      <Param name="fUIColorTempScaling" value="2.38999963e+00" />
+      <Param name="fUIStrength" value="6.74000025e-01" />
+      <Param name="fUITintCold" value="0.020000,0.040000,0.040000" />
+      <Param name="fUITintWarm" value="0.040000,0.040000,0.020000" />
+      <Param name="iUIBlackLevelFormula" value="1" />
+      <Param name="iUIWhiteLevelFormula" value="1" />
+    </Variant>
+  </Technique>
+  <Technique name="AdaptiveTonemapper.fx" variants="1">
+    <Variant index="1">
+      <Param name="Amount" value="1.41000003e-01" />
+      <Param name="Exposure" value="-1.06299996e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="AmbientLight.fx" variants="1">
+    <Variant index="1">
+      <Param name="alAdapt" value="3.500000" />
+      <Param name="alAdaptBaseBlackLvL" value="2" />
+      <Param name="alAdaptBaseMult" value="0.160000" />
+      <Param name="alDebug" value="0" />
+      <Param name="alDirtInt" value="0.000000" />
+      <Param name="alDirtOVInt" value="0.900000" />
+      <Param name="alInt" value="1.725000" />
+      <Param name="alLensInt" value="2.400000" />
+      <Param name="alLensThresh" value="1.000000" />
+      <Param name="alThreshold" value="100.000000" />
+      <Param name="AL_Adaptation" value="0" />
+      <Param name="AL_Adaptive" value="1" />
+      <Param name="AL_Dirt" value="4294967295" />
+      <Param name="AL_DirtTex" value="0" />
+      <Param name="AL_Dither" value="0" />
+      <Param name="AL_Lens" value="0" />
+      <Param name="AL_Vibrance" value="0" />
+    </Variant>
+  </Technique>
+  <Technique name="BIAA.fx" variants="1">
+    <Variant index="1">
+      <Param name="AA_Power" value="0.786000" />
+      <Param name="Mask_Adjust" value="0.378000" />
+    </Variant>
+  </Technique>
+  <Technique name="BloomingHDR.fx" variants="1">
+    <Variant index="1">
+      <Param name="Auto_Exposure" value="0" />
+      <Param name="CBT_Adjust" value="0.000000" />
+      <Param name="Debug_View" value="0" />
+      <Param name="Exposure" value="0.100000" />
+      <Param name="HDR_Adjust" value="0.969000" />
+      <Param name="Luma_Coefficient" value="0" />
+      <Param name="Saturation" value="1.000000" />
+      <Param name="Spread" value="37.500000" />
+    </Variant>
+  </Technique>
+  <Technique name="Bumpmapping.fx" variants="1">
+    <Variant index="1">
+      <Param name="CONTRAST" value="8.79999995e-02" />
+      <Param name="RANGE" value="7.16000021e-01" />
+      <Param name="SMART" value="8.37000012e-01" />
+      <Param name="SMOOTHING" value="6.15000010e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="CA.fx" variants="1">
+    <Variant index="1">
+      <Param name="Shift" value="1.000000,-0.500000" />
+      <Param name="Strength" value="0.301000" />
+    </Variant>
+  </Technique>
+  <Technique name="CAS.fx" variants="1">
+    <Variant index="1">
+      <Param name="Contrast" value="7.22000003e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="Clarity.fx" variants="4">
+    <Variant index="1">
+      <Param name="ClarityBlendIfLight" value="255" />
+      <Param name="ClarityBlendMode" value="2" />
+      <Param name="ClarityDarkIntensity" value="2.50000000e-01" />
+      <Param name="ClarityOffset" value="2.000000" />
+      <Param name="ClarityRadius" value="4" />
+      <Param name="ClarityStrength" value="6.16999984e-01" />
+      <Param name="ClarityViewBlendIfMask" value="0" />
+      <Param name="ClarityViewMask" value="0" />
+    </Variant>
+    <Variant index="2">
+      <Param name="ClarityBlendIfLight" value="205" />
+      <Param name="ClarityBlendMode" value="2" />
+      <Param name="ClarityDarkIntensity" value="4.02000129e-01" />
+      <Param name="ClarityLightIntensity" value="0.000000" />
+      <Param name="ClarityOffset" value="2.000000" />
+      <Param name="ClarityRadius" value="3" />
+      <Param name="ClarityStrength" value="4.05000001e-01" />
+      <Param name="ClarityViewBlendIfMask" value="0" />
+      <Param name="ClarityViewMask" value="0" />
+    </Variant>
+    <Variant index="3">
+      <Param name="ClarityBlendIfDark" value="50" />
+      <Param name="ClarityBlendIfLight" value="205" />
+      <Param name="ClarityBlendMode" value="2" />
+      <Param name="ClarityDarkIntensity" value="4.09999996e-01" />
+      <Param name="ClarityLightIntensity" value="0.000000" />
+      <Param name="ClarityOffset" value="2.000000" />
+      <Param name="ClarityRadius" value="3" />
+      <Param name="ClarityStrength" value="0.402000" />
+      <Param name="ClarityViewBlendIfMask" value="0" />
+      <Param name="ClarityViewMask" value="0" />
+    </Variant>
+    <Variant index="4">
+      <Param name="ClarityBlendIfDark" value="50" />
+      <Param name="ClarityBlendIfLight" value="205" />
+      <Param name="ClarityBlendMode" value="2" />
+      <Param name="ClarityDarkIntensity" value="0.402000" />
+      <Param name="ClarityLightIntensity" value="0.000000" />
+      <Param name="ClarityOffset" value="2.000000" />
+      <Param name="ClarityRadius" value="3" />
+      <Param name="ClarityStrength" value="0.402000" />
+      <Param name="ClarityViewBlendIfMask" value="0" />
+      <Param name="ClarityViewMask" value="0" />
+    </Variant>
+  </Technique>
+  <Technique name="Clarity2.fx" variants="5">
+    <Variant index="1">
+      <Param name="BlendIfRange" value="0.200000" />
+      <Param name="ClarityBlendIfDarkTwo" value="50" />
+      <Param name="ClarityBlendIfLightTwo" value="205" />
+      <Param name="ClarityBlendModeTwo" value="2" />
+      <Param name="ClarityDarkIntensityTwo" value="0.400000" />
+      <Param name="ClarityLightIntensityTwo" value="0.000000" />
+      <Param name="ClarityOffsetTwo" value="2.000000" />
+      <Param name="ClarityRadiusTwo" value="3" />
+      <Param name="ClarityStrengthTwo" value="0.400000" />
+      <Param name="DitherStrength" value="1.000000" />
+      <Param name="MaskContrast" value="0.000000" />
+      <Param name="PreprocessorDefinitions" value="0" />
+    </Variant>
+    <Variant index="2">
+      <Param name="BlendIfRange" value="0.200000" />
+      <Param name="ClarityBlendModeTwo" value="2" />
+      <Param name="ClarityLightIntensityTwo" value="4.00000006e-01" />
+      <Param name="ClarityOffsetTwo" value="2.000000" />
+      <Param name="ClarityRadiusTwo" value="3" />
+      <Param name="ClarityStrengthTwo" value="7.50000000e-01" />
+      <Param name="DitherStrength" value="1.000000" />
+      <Param name="MaskContrast" value="0.000000" />
+      <Param name="PreprocessorDefinitions" value="0" />
+    </Variant>
+    <Variant index="3">
+      <Param name="BlendIfRange" value="0.200000" />
+      <Param name="ClarityBlendIfDarkTwo" value="50" />
+      <Param name="ClarityBlendIfLightTwo" value="205" />
+      <Param name="ClarityBlendModeTwo" value="2" />
+      <Param name="ClarityDarkIntensityTwo" value="0.400000" />
+      <Param name="ClarityLightIntensityTwo" value="4.00000006e-01" />
+      <Param name="ClarityOffsetTwo" value="2.000000" />
+      <Param name="ClarityRadiusTwo" value="3" />
+      <Param name="ClarityStrengthTwo" value="6.00000024e-01" />
+      <Param name="DitherStrength" value="1.000000" />
+      <Param name="MaskContrast" value="0.000000" />
+      <Param name="PreprocessorDefinitions" value="0" />
+    </Variant>
+    <Variant index="4">
+      <Param name="BlendIfRange" value="0.200000" />
+      <Param name="ClarityBlendIfDarkTwo" value="50" />
+      <Param name="ClarityBlendIfLightTwo" value="205" />
+      <Param name="ClarityBlendModeTwo" value="2" />
+      <Param name="ClarityLightIntensityTwo" value="4.00000006e-01" />
+      <Param name="ClarityOffsetTwo" value="2.000000" />
+      <Param name="ClarityRadiusTwo" value="3" />
+      <Param name="ClarityStrengthTwo" value="5.10000050e-01" />
+      <Param name="DitherStrength" value="1.000000" />
+      <Param name="MaskContrast" value="4.00000006e-01" />
+      <Param name="PreprocessorDefinitions" value="0" />
+    </Variant>
+    <Variant index="5">
+      <Param name="ClarityLightIntensityTwo" value="4.00000006e-01" />
+      <Param name="ClarityStrengthTwo" value="7.50000000e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="ColorMatrix.fx" variants="2">
+    <Variant index="1">
+      <Param name="ColorMatrix_Blue" value="0.338000,0.122000,0.347000" />
+      <Param name="ColorMatrix_Green" value="0.351000,0.216000,0.227000" />
+      <Param name="ColorMatrix_Red" value="0.338000,0.054000,0.240000" />
+      <Param name="Strength" value="0.278000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="ColorMatrix_Blue" value="2.75002897e-01,2.75002897e-01,2.75002897e-01" />
+      <Param name="ColorMatrix_Green" value="3.63001764e-01,3.63001764e-01,3.63001764e-01" />
+      <Param name="ColorMatrix_Red" value="5.00000000e-01,5.00000000e-01,5.00000000e-01" />
+      <Param name="Strength" value="0.00000000e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="ColorMod.fx" variants="1">
+    <Variant index="1">
+      <Param name="ColormodBrightnessB" value="0.00000000e+00" />
+      <Param name="ColormodBrightnessG" value="0.00000000e+00" />
+      <Param name="ColormodChroma" value="1.00000000e+00" />
+      <Param name="ColormodContrastB" value="1.00000000e+00" />
+      <Param name="ColormodContrastG" value="1.00000000e+00" />
+      <Param name="ColormodContrastR" value="1.00000000e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="Colourfulness.fx" variants="3">
+    <Variant index="1">
+      <Param name="backbuffer_bits" value="8.000000" />
+      <Param name="colourfulness" value="-1.00000001e-01" />
+      <Param name="col_noise" value="0" />
+      <Param name="enable_dither" value="0" />
+      <Param name="lim_luma" value="0.100000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="backbuffer_bits" value="8.000000" />
+      <Param name="colourfulness" value="-1.50000006e-01" />
+      <Param name="col_noise" value="0" />
+      <Param name="enable_dither" value="0" />
+      <Param name="lim_luma" value="0.100000" />
+    </Variant>
+    <Variant index="3">
+      <Param name="backbuffer_bits" value="8.000000" />
+      <Param name="colourfulness" value="1.00000001e-01" />
+      <Param name="col_noise" value="0" />
+      <Param name="lim_luma" value="0.100000" />
+    </Variant>
+  </Technique>
+  <Technique name="CRT.fx" variants="1">
+    <Variant index="1">
+      <Param name="Amount" value="1.000000" />
+      <Param name="Angle" value="0.000000,0.000000" />
+      <Param name="Brightness" value="0.900000" />
+      <Param name="CornerSize" value="0.010000" />
+      <Param name="Curvature" value="0" />
+      <Param name="CurvatureRadius" value="1.500000" />
+      <Param name="Gamma" value="2.400000" />
+      <Param name="MonitorGamma" value="2.200000" />
+      <Param name="Oversample" value="1" />
+      <Param name="Overscan" value="1.010000" />
+      <Param name="Resolution" value="1.150000" />
+      <Param name="ScanlineGaussian" value="1" />
+      <Param name="ScanlineIntensity" value="2" />
+      <Param name="ViewerDistance" value="2.000000" />
+    </Variant>
+  </Technique>
+  <Technique name="Curves.fx" variants="2">
+    <Variant index="1">
+      <Param name="Contrast" value="-1.80000022e-01" />
+      <Param name="Formula" value="6" />
+      <Param name="Mode" value="0" />
+    </Variant>
+    <Variant index="2">
+      <Param name="Contrast" value="-0.112000" />
+      <Param name="Formula" value="6" />
+      <Param name="Mode" value="0" />
+    </Variant>
+  </Technique>
+  <Technique name="Deband.fx" variants="1">
+    <Variant index="1">
+      <Param name="custom_avgdiff" value="255.000000" />
+      <Param name="custom_maxdiff" value="10.000000" />
+      <Param name="custom_middiff" value="255.000000" />
+      <Param name="debug_output" value="0" />
+      <Param name="Range" value="128.000000" />
+      <Param name="threshold_preset" value="3" />
+    </Variant>
+  </Technique>
+  <Technique name="Denoise.fx" variants="1">
+    <Variant index="1">
+      <Param name="CounterThreshold" value="0.270000" />
+      <Param name="GaussianSigma" value="23.934000" />
+      <Param name="LerpCoefficeint" value="0.502000" />
+      <Param name="NoiseLevel" value="0.098000" />
+      <Param name="WeightThreshold" value="0.232000" />
+    </Variant>
+  </Technique>
+  <Technique name="DepthSharpenStaticDof.fx" variants="3">
+    <Variant index="1">
+      <Param name="contourDepthExponent" value="4.00000000e+00" />
+      <Param name="dofStartDepth" value="3.00000000e+00" />
+      <Param name="dofTransitionDepth" value="1.00000000e+00" />
+      <Param name="maxDepth" value="1.00000000e+00" />
+      <Param name="sharpenEndDepth" value="2.18999997e-01" />
+    </Variant>
+    <Variant index="2">
+      <Param name="sharp_clamp" value="1.84000000e-01" />
+      <Param name="sharp_strength" value="4.04099989e+00" />
+    </Variant>
+    <Variant index="3">
+      <Param name="contourBlurMinDeltaDepth" value="3.00999999e-01" />
+      <Param name="contourDepthExponent" value="2.10299993e+00" />
+      <Param name="dofStartDepth" value="1.00000000e+00" />
+      <Param name="dofTransitionDepth" value="2.15000004e-01" />
+      <Param name="pattern" value="3" />
+      <Param name="sharpenEndDepth" value="9.99999866e-02" />
+      <Param name="sharpenMaxDeltaDepth" value="9.49999988e-02" />
+      <Param name="sharp_clamp" value="1.30000003e-02" />
+      <Param name="sharp_strength" value="1.66499996e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="DPX.fx" variants="1">
+    <Variant index="1">
+      <Param name="Colorfulness" value="2.500000" />
+      <Param name="Contrast" value="0.100000" />
+      <Param name="RGB_C" value="0.360000,0.360000,0.340000" />
+      <Param name="RGB_Curve" value="8.000000,8.000000,8.000000" />
+      <Param name="Saturation" value="3.000000" />
+      <Param name="Strength" value="0.200000" />
+    </Variant>
+  </Technique>
+  <Technique name="EyeAdaption.fx" variants="3">
+    <Variant index="1">
+      <Param name="fAdp_Delay" value="0.000000" />
+      <Param name="fAdp_Equilibrium" value="0.000000" />
+      <Param name="fAdp_Strength" value="2.000000" />
+      <Param name="fAdp_TriggerRadius" value="5.800000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="bAdp_IgnoreOccludedByUI" value="1" />
+      <Param name="fAdp_BrightenHighlights" value="4.39999491e-01" />
+      <Param name="fAdp_BrightenShadows" value="1.09999985e-01" />
+      <Param name="fAdp_DarkenHighlights" value="1.15999997e-01" />
+      <Param name="fAdp_DarkenMidtones" value="5.20000011e-02" />
+      <Param name="fAdp_DarkenShadows" value="0.00000000e+00" />
+      <Param name="fAdp_Delay" value="1.51400006e+00" />
+      <Param name="fAdp_Equilibrium" value="5.37999988e-01" />
+      <Param name="fAdp_Strength" value="2.000000" />
+      <Param name="fAdp_TriggerRadius" value="7.00000000e+00" />
+      <Param name="fAdp_YAxisFocalPoint" value="8.18000019e-01" />
+    </Variant>
+    <Variant index="3">
+      <Param name="bAdp_IgnoreOccludedByUI" value="1" />
+      <Param name="fAdp_BrightenHighlights" value="4.39999819e-01" />
+      <Param name="fAdp_BrightenMidtones" value="2.98999399e-01" />
+      <Param name="fAdp_BrightenShadows" value="1.09999999e-01" />
+      <Param name="fAdp_DarkenHighlights" value="2.85000026e-01" />
+      <Param name="fAdp_DarkenMidtones" value="0.00000000e+00" />
+      <Param name="fAdp_DarkenShadows" value="0.00000000e+00" />
+      <Param name="fAdp_Delay" value="1.51400006e+00" />
+      <Param name="fAdp_Equilibrium" value="7.72000015e-01" />
+      <Param name="fAdp_Strength" value="2.000000" />
+      <Param name="fAdp_TriggerRadius" value="7.00000000e+00" />
+      <Param name="fAdp_YAxisFocalPoint" value="8.16999972e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="FakeHDR.fx" variants="2">
+    <Variant index="1">
+      <Param name="fHDRPower" value="1.100000" />
+      <Param name="fradius1" value="0.793000" />
+      <Param name="fradius2" value="0.870000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="fHDRPower" value="1.100000" />
+      <Param name="fradius2" value="0.870000" />
+    </Variant>
+  </Technique>
+  <Technique name="FilmicPass.fx" variants="4">
+    <Variant index="1">
+      <Param name="BaseCurve" value="2.000000" />
+      <Param name="BaseGamma" value="1.039000" />
+      <Param name="Bleach" value="0.715000" />
+      <Param name="BlueCurve" value="2.000000" />
+      <Param name="Contrast" value="1.17999887e+00" />
+      <Param name="EffectGamma" value="1.902000" />
+      <Param name="EffectGammaB" value="1.353000" />
+      <Param name="EffectGammaG" value="1.615000" />
+      <Param name="EffectGammaR" value="1.631000" />
+      <Param name="Fade" value="0.225000" />
+      <Param name="GreenCurve" value="2.000000" />
+      <Param name="Linearization" value="0.606000" />
+      <Param name="LumCoeff" value="0.070000,0.700000,0.300000" />
+      <Param name="RedCurve" value="2.000000" />
+      <Param name="Saturation" value="-0.160000" />
+      <Param name="Strength" value="0.953000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="BaseCurve" value="2.000000" />
+      <Param name="BaseGamma" value="1.039000" />
+      <Param name="Bleach" value="0.715000" />
+      <Param name="BlueCurve" value="2.000000" />
+      <Param name="Contrast" value="1.163000" />
+      <Param name="EffectGamma" value="1.902000" />
+      <Param name="EffectGammaB" value="1.353000" />
+      <Param name="EffectGammaG" value="1.615000" />
+      <Param name="EffectGammaR" value="1.631000" />
+      <Param name="Fade" value="0.225000" />
+      <Param name="GreenCurve" value="2.000000" />
+      <Param name="Linearization" value="0.606000" />
+      <Param name="LumCoeff" value="0.070000,0.700000,0.300000" />
+      <Param name="RedCurve" value="2.000000" />
+      <Param name="Saturation" value="-0.160000" />
+      <Param name="Strength" value="0.953000" />
+    </Variant>
+    <Variant index="3">
+      <Param name="BaseCurve" value="2.000000" />
+      <Param name="BaseGamma" value="1.03900051e+00" />
+      <Param name="Bleach" value="7.02000022e-01" />
+      <Param name="BlueCurve" value="2.000000" />
+      <Param name="EffectGamma" value="1.90199983e+00" />
+      <Param name="EffectGammaB" value="1.70000005e+00" />
+      <Param name="EffectGammaG" value="1.70000005e+00" />
+      <Param name="EffectGammaR" value="1.70000005e+00" />
+      <Param name="Fade" value="3.99999991e-02" />
+      <Param name="GreenCurve" value="2.00000000e+00" />
+      <Param name="Linearization" value="1.27999997e+00" />
+      <Param name="LumCoeff" value="0.070000,0.700000,0.300000" />
+      <Param name="RedCurve" value="2.000000" />
+      <Param name="Saturation" value="-5.49999997e-02" />
+      <Param name="Strength" value="1.08800006e+00" />
+    </Variant>
+    <Variant index="4">
+      <Param name="BaseCurve" value="2.000000" />
+      <Param name="BaseGamma" value="1.03900051e+00" />
+      <Param name="Bleach" value="7.02000022e-01" />
+      <Param name="BlueCurve" value="2.000000" />
+      <Param name="Contrast" value="1.05900002e+00" />
+      <Param name="EffectGamma" value="1.90199983e+00" />
+      <Param name="EffectGammaB" value="1.70000005e+00" />
+      <Param name="EffectGammaG" value="1.70000005e+00" />
+      <Param name="EffectGammaR" value="1.70000005e+00" />
+      <Param name="Fade" value="3.99999991e-02" />
+      <Param name="GreenCurve" value="2.00000000e+00" />
+      <Param name="Linearization" value="1.27999997e+00" />
+      <Param name="LumCoeff" value="0.070000,0.700000,0.300000" />
+      <Param name="RedCurve" value="2.000000" />
+      <Param name="Saturation" value="-5.49999997e-02" />
+      <Param name="Strength" value="1.08800006e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="FineSharp.fx" variants="1">
+    <Variant index="1">
+      <Param name="cstr" value="0.900000" />
+      <Param name="lstr" value="1.490000" />
+      <Param name="pstr" value="1.272000" />
+      <Param name="sstr" value="2.000000" />
+      <Param name="xrep" value="0.250000" />
+      <Param name="xstr" value="0.190000" />
+    </Variant>
+  </Technique>
+  <Technique name="Fisheye Vertical.fx" variants="1">
+    <Variant index="1">
+      <Param name="fFisheyeColorshift" value="9.99999978e-03" />
+      <Param name="fFisheyeDistortion" value="3.00000012e-01" />
+      <Param name="fFisheyeZoom" value="5.83000004e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="FogRemoval.fx" variants="1">
+    <Variant index="1">
+      <Param name="PreprocessorDefinitions" value="FOGREMOVALSTRENGTH=1.00000000e+00,FOGREMOVALDEPTHCURVE=0.00000000e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="GaussianBloom.fx" variants="1">
+    <Variant index="1">
+      <Param name="Exposure" value="7.676000" />
+      <Param name="GaussianBloomOffset" value="1.700000" />
+      <Param name="GaussianBloomRadius" value="3" />
+      <Param name="GaussianBloomSaturation" value="0.425000" />
+      <Param name="GaussianBloomStrength" value="0.359000" />
+      <Param name="Threshold" value="0.802000" />
+    </Variant>
+  </Technique>
+  <Technique name="GaussianBlur.fx" variants="1">
+    <Variant index="1">
+      <Param name="GaussianBlurOffset" value="1.000000" />
+      <Param name="GaussianBlurRadius" value="1" />
+      <Param name="GaussianBlurStrength" value="0.300000" />
+    </Variant>
+  </Technique>
+  <Technique name="Glamayre_Fast_Effects.fx" variants="2">
+    <Variant index="1">
+      <Param name="ao_fog_fix" value="8.00000012e-01" />
+      <Param name="ao_max_depth_diff" value="1.14999998e+00" />
+      <Param name="ao_radius" value="6.60000026e-01" />
+      <Param name="ao_shine_strength" value="1.00000000e+00" />
+      <Param name="ao_strength" value="1.00000000e+00" />
+      <Param name="dof_enabled" value="0" />
+      <Param name="dof_strength" value="2.09999993e-01" />
+      <Param name="fxaa_bias" value="5.49999997e-02" />
+      <Param name="fxaa_enabled" value="0" />
+      <Param name="gi_ao_strength" value="6.70000017e-01" />
+      <Param name="gi_contrast" value="4.49999988e-01" />
+      <Param name="gi_local_ao_strength" value="1.50000006e-01" />
+      <Param name="gi_saturation" value="4.00000006e-01" />
+      <Param name="gi_shape" value="9.99999978e-03" />
+      <Param name="gi_strength" value="1.00000000e+00" />
+      <Param name="sharp_enabled" value="0" />
+      <Param name="sky_detect" value="1" />
+    </Variant>
+    <Variant index="2">
+      <Param name="ao_fog_fix" value="8.00000012e-01" />
+      <Param name="ao_max_depth_diff" value="1.14999998e+00" />
+      <Param name="ao_radius" value="6.60000026e-01" />
+      <Param name="ao_shine_strength" value="1.00000000e+00" />
+      <Param name="ao_strength" value="1.00000000e+00" />
+      <Param name="dof_enabled" value="0" />
+      <Param name="dof_strength" value="2.09999993e-01" />
+      <Param name="fxaa_bias" value="5.49999997e-02" />
+      <Param name="fxaa_enabled" value="0" />
+      <Param name="gi_ao_strength" value="6.70000017e-01" />
+      <Param name="gi_contrast" value="4.49999988e-01" />
+      <Param name="gi_local_ao_strength" value="1.50000006e-01" />
+      <Param name="gi_saturation" value="1.50000006e-01" />
+      <Param name="gi_shape" value="9.99999978e-03" />
+      <Param name="gi_strength" value="3.49999994e-01" />
+      <Param name="sharp_enabled" value="0" />
+      <Param name="sky_detect" value="1" />
+    </Variant>
+  </Technique>
+  <Technique name="KeepUI.fx" variants="1">
+    <Variant index="1">
+      <Param name="PreprocessorDefinitions" value="KeepUIDebug=0" />
+    </Variant>
+  </Technique>
+  <Technique name="KeepUI_FFXIV.fx" variants="1">
+    <Variant index="1">
+      <Param name="iOccludeToggle" value="0" />
+    </Variant>
+  </Technique>
+  <Technique name="Layer.fx" variants="3">
+    <Variant index="1">
+      <Param name="Layer_PosY" value="3.08999985e-01" />
+      <Param name="Layer_ScaleX" value="8.99999976e-01" />
+      <Param name="PreprocessorDefinitions" value="LayerTexture_Source=0,LAYER_SIZE_X=620,LAYER_SIZE_Y=300" />
+    </Variant>
+    <Variant index="2">
+      <Param name="Layer_PosY" value="2.30000004e-01" />
+      <Param name="PreprocessorDefinitions" value="LayerTexture_Source=0,LAYER_SIZE_X=620,LAYER_SIZE_Y=300" />
+    </Variant>
+    <Variant index="3">
+      <Param name="PreprocessorDefinitions" value="LayerTexture_Source=0,LAYER_SIZE_X=620,LAYER_SIZE_Y=300" />
+    </Variant>
+  </Technique>
+  <Technique name="Levels.fx" variants="2">
+    <Variant index="1">
+      <Param name="BlackPoint" value="0" />
+      <Param name="HighlightClipping" value="0" />
+      <Param name="WhitePoint" value="240" />
+    </Variant>
+    <Variant index="2">
+      <Param name="BlackPoint" value="0" />
+      <Param name="HighlightClipping" value="0" />
+      <Param name="WhitePoint" value="255" />
+    </Variant>
+  </Technique>
+  <Technique name="LUT.fx" variants="2">
+    <Variant index="1">
+      <Param name="fLUT_AmountChroma" value="0.432000" />
+      <Param name="fLUT_AmountLuma" value="0.212000" />
+      <Param name="PreprocessorDefinitions" value="LUTTexture_Source=0" />
+    </Variant>
+    <Variant index="2">
+      <Param name="fLUT_AmountChroma" value="1.58000007e-01" />
+      <Param name="fLUT_AmountLuma" value="1.48000002e-01" />
+      <Param name="PreprocessorDefinitions" value="LUTTexture_Source=0" />
+    </Variant>
+  </Technique>
+  <Technique name="MartysMods_DEPTHOFFIELD.fx" variants="6">
+    <Variant index="1">
+      <Param name="APERTURE_ROUNDNESS_PCT" value="1.000000" />
+      <Param name="AUTOFOCUS_CENTER" value="0.500000,0.500000" />
+      <Param name="AUTOFOCUS_RANGE" value="0.600000" />
+      <Param name="AUTOFOCUS_SPEED" value="0.508000" />
+      <Param name="BOKEH_ANGLE" value="0.000000" />
+      <Param name="BOKEH_INTENSITY" value="0.300000" />
+      <Param name="BOKEH_SMOOTHENING" value="4.000000" />
+      <Param name="FOCUS_MODE" value="1" />
+      <Param name="FSTOPS" value="20.500000" />
+      <Param name="RAW_FOCUS_PLANE_DEPTH" value="0.001000" />
+      <Param name="RING_COUNT_MAX" value="5" />
+      <Param name="VERTEX_COUNT" value="6" />
+      <Param name="VRS_BIAS" value="0.500000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="APERTURE_ROUNDNESS_PCT" value="1.000000" />
+      <Param name="AUTOFOCUS_CENTER" value="5.00000000e-01,3.49999994e-01" />
+      <Param name="AUTOFOCUS_RANGE" value="4.55000013e-01" />
+      <Param name="AUTOFOCUS_SPEED" value="0.508000" />
+      <Param name="BOKEH_ANGLE" value="0.000000" />
+      <Param name="BOKEH_INTENSITY" value="0.300000" />
+      <Param name="BOKEH_SMOOTHENING" value="4.000000" />
+      <Param name="FOCUS_MODE" value="1" />
+      <Param name="FSTOPS" value="20.500000" />
+      <Param name="RAW_FOCUS_PLANE_DEPTH" value="0.001000" />
+      <Param name="RING_COUNT_MAX" value="5" />
+      <Param name="VERTEX_COUNT" value="6" />
+      <Param name="VRS_BIAS" value="0.500000" />
+    </Variant>
+    <Variant index="3">
+      <Param name="APERTURE_ROUNDNESS_PCT" value="1.000000" />
+      <Param name="AUTOFOCUS_CENTER" value="4.97000009e-01,5.99999987e-02" />
+      <Param name="AUTOFOCUS_RANGE" value="4.63000000e-01" />
+      <Param name="AUTOFOCUS_SPEED" value="5.08000016e-01" />
+      <Param name="BOKEH_ANGLE" value="0.000000" />
+      <Param name="BOKEH_INTENSITY" value="0.300000" />
+      <Param name="BOKEH_SMOOTHENING" value="4.000000" />
+      <Param name="FOCUS_MODE" value="1" />
+      <Param name="FSTOPS" value="20.500000" />
+      <Param name="RAW_FOCUS_PLANE_DEPTH" value="0.001000" />
+      <Param name="RING_COUNT_MAX" value="5" />
+      <Param name="VERTEX_COUNT" value="6" />
+      <Param name="VRS_BIAS" value="0.500000" />
+    </Variant>
+    <Variant index="4">
+      <Param name="APERTURE_ROUNDNESS_PCT" value="1.000000" />
+      <Param name="AUTOFOCUS_RANGE" value="0.600000" />
+      <Param name="AUTOFOCUS_SPEED" value="0.508000" />
+      <Param name="BOKEH_ANGLE" value="0.000000" />
+      <Param name="BOKEH_INTENSITY" value="0.300000" />
+      <Param name="BOKEH_SMOOTHENING" value="4.000000" />
+      <Param name="FOCUS_MODE" value="1" />
+      <Param name="FSTOPS" value="20.500000" />
+      <Param name="RAW_FOCUS_PLANE_DEPTH" value="0.001000" />
+      <Param name="RING_COUNT_MAX" value="5" />
+      <Param name="VERTEX_COUNT" value="6" />
+      <Param name="VRS_BIAS" value="0.500000" />
+    </Variant>
+    <Variant index="5">
+      <Param name="APERTURE_ROUNDNESS_PCT" value="1.000000" />
+      <Param name="AUTOFOCUS_CENTER" value="3.28000009e-01,5.00000000e-01" />
+      <Param name="AUTOFOCUS_RANGE" value="1.30999997e-01" />
+      <Param name="AUTOFOCUS_SPEED" value="0.508000" />
+      <Param name="BOKEH_ANGLE" value="0.000000" />
+      <Param name="BOKEH_INTENSITY" value="0.300000" />
+      <Param name="BOKEH_SMOOTHENING" value="4.000000" />
+      <Param name="FOCUS_MODE" value="1" />
+      <Param name="FSTOPS" value="20.500000" />
+      <Param name="RAW_FOCUS_PLANE_DEPTH" value="0.001000" />
+      <Param name="RING_COUNT_MAX" value="5" />
+      <Param name="VERTEX_COUNT" value="6" />
+      <Param name="VRS_BIAS" value="0.500000" />
+    </Variant>
+    <Variant index="6">
+      <Param name="APERTURE_ROUNDNESS_PCT" value="1.000000" />
+      <Param name="AUTOFOCUS_CENTER" value="5.00000000e-01,5.99999987e-02" />
+      <Param name="AUTOFOCUS_SPEED" value="5.08000016e-01" />
+      <Param name="BOKEH_ANGLE" value="0.000000" />
+      <Param name="BOKEH_INTENSITY" value="0.300000" />
+      <Param name="BOKEH_SMOOTHENING" value="4.000000" />
+      <Param name="FOCUS_MODE" value="1" />
+      <Param name="FSTOPS" value="20.500000" />
+      <Param name="RAW_FOCUS_PLANE_DEPTH" value="0.001000" />
+      <Param name="RING_COUNT_MAX" value="5" />
+      <Param name="VERTEX_COUNT" value="6" />
+      <Param name="VRS_BIAS" value="0.500000" />
+    </Variant>
+  </Technique>
+  <Technique name="MartysMods_LAUNCHPAD.fx" variants="1">
+    <Variant index="1">
+      <Param name="ENABLE_SMOOTH_NORMALS" value="1" />
+    </Variant>
+  </Technique>
+  <Technique name="MartysMods_REGRADE.fx" variants="4">
+    <Variant index="1">
+      <Param name="COLOR_REMAP_AQUA" value="0.164000,0.024000,-0.013000" />
+      <Param name="COLOR_REMAP_BLUE" value="0.132000,-0.008000,-0.213000" />
+      <Param name="COLOR_REMAP_GREEN" value="0.288000,-0.660000,0.461000" />
+      <Param name="COLOR_REMAP_MAGENTA" value="-0.078000,0.000000,0.062000" />
+      <Param name="COLOR_REMAP_ORANGE" value="0.035000,0.000000,-1.000000" />
+      <Param name="COLOR_REMAP_RED" value="-0.105000,0.181000,-0.639000" />
+      <Param name="COLOR_REMAP_YELLOW" value="-0.019000,-0.175000,0.046000" />
+      <Param name="ENABLE_VIGNETTE" value="0" />
+      <Param name="GRADE_CONTRAST" value="0.000000" />
+      <Param name="GRADE_EXPOSURE" value="0.000000" />
+      <Param name="GRADE_GAMMA" value="0.000000" />
+      <Param name="GRADE_SATURATION" value="0.000000" />
+      <Param name="GRADE_VIBRANCE" value="0.000000" />
+      <Param name="INPUT_BLACK_LVL" value="4.000000" />
+      <Param name="INPUT_COLOR_LAB_A" value="0.000000" />
+      <Param name="INPUT_COLOR_TEMPERATURE" value="0.000000" />
+      <Param name="INPUT_WHITE_LVL" value="232.000000" />
+      <Param name="TONECURVE_DARKS" value="0.000000" />
+      <Param name="TONECURVE_HIGHLIGHTS" value="0.000000" />
+      <Param name="TONECURVE_LIGHTS" value="0.000000" />
+      <Param name="TONECURVE_SHADOWS" value="0.000000" />
+      <Param name="VIGNETTE_BLEND_MODE" value="1" />
+      <Param name="VIGNETTE_BLURRYNESS_MECH" value="1.000000" />
+      <Param name="VIGNETTE_RADIUS_MECH" value="0.000000" />
+      <Param name="VIGNETTE_RADIUS_SENSOR" value="1.000000" />
+      <Param name="VIGNETTE_RATIO" value="0.000000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="COLOR_REMAP_AQUA" value="0.164000,2.39999995e-01,-0.013000" />
+      <Param name="COLOR_REMAP_BLUE" value="0.132000,-0.008000,-0.213000" />
+      <Param name="COLOR_REMAP_GREEN" value="0.288000,-0.660000,0.461000" />
+      <Param name="COLOR_REMAP_MAGENTA" value="-0.078000,0.000000,0.062000" />
+      <Param name="COLOR_REMAP_ORANGE" value="0.035000,0.000000,-1.000000" />
+      <Param name="COLOR_REMAP_RED" value="-0.105000,0.181000,-0.639000" />
+      <Param name="COLOR_REMAP_YELLOW" value="-0.019000,-0.175000,0.046000" />
+      <Param name="ENABLE_VIGNETTE" value="0" />
+      <Param name="GRADE_CONTRAST" value="-1.12000003e-01" />
+      <Param name="GRADE_EXPOSURE" value="0.000000" />
+      <Param name="GRADE_GAMMA" value="0.000000" />
+      <Param name="GRADE_SATURATION" value="0.000000" />
+      <Param name="GRADE_VIBRANCE" value="2.00000009e-03" />
+      <Param name="INPUT_BLACK_LVL" value="4.000000" />
+      <Param name="INPUT_COLOR_LAB_A" value="0.000000" />
+      <Param name="INPUT_COLOR_TEMPERATURE" value="0.000000" />
+      <Param name="INPUT_WHITE_LVL" value="232.000000" />
+      <Param name="TONECURVE_DARKS" value="0.000000" />
+      <Param name="TONECURVE_HIGHLIGHTS" value="0.000000" />
+      <Param name="TONECURVE_LIGHTS" value="0.000000" />
+      <Param name="TONECURVE_SHADOWS" value="0.000000" />
+      <Param name="VIGNETTE_BLEND_MODE" value="1" />
+      <Param name="VIGNETTE_BLURRYNESS_MECH" value="1.000000" />
+      <Param name="VIGNETTE_RADIUS_MECH" value="0.000000" />
+      <Param name="VIGNETTE_RADIUS_SENSOR" value="1.000000" />
+      <Param name="VIGNETTE_RATIO" value="0.000000" />
+    </Variant>
+    <Variant index="3">
+      <Param name="COLOR_REMAP_ORANGE" value="0.000000,-5.90000004e-02,0.000000" />
+      <Param name="COLOR_REMAP_RED" value="0.000000,1.04999997e-01,0.000000" />
+      <Param name="COLOR_REMAP_YELLOW" value="1.72999993e-01,1.04999997e-01,0.000000" />
+      <Param name="GRADE_SATURATION" value="1.62000000e-01" />
+      <Param name="GRADE_VIBRANCE" value="-1.70000009e-02" />
+      <Param name="CB_HI" value="0.00000000e+00,0.00000000e+00" />
+      <Param name="CB_MID" value="6.30544689e-01,3.50939369e-01" />
+      <Param name="CB_SHAD" value="0.00000000e+00,0.00000000e+00" />
+      <Param name="NODE1" value="2" />
+      <Param name="NODE2" value="8" />
+    </Variant>
+    <Variant index="4">
+      <Param name="COLOR_REMAP_GREEN" value="0.000000,-1.19999997e-01,-3.40999991e-01" />
+      <Param name="COLOR_REMAP_MAGENTA" value="0.000000,0.000000,0.000000" />
+      <Param name="COLOR_REMAP_ORANGE" value="-1.58000007e-01,0.000000,0.000000" />
+      <Param name="COLOR_REMAP_RED" value="0.000000,4.39999998e-02,0.000000" />
+      <Param name="COLOR_REMAP_YELLOW" value="0.000000,-1.72999993e-01,-1.95999995e-01" />
+      <Param name="ENABLE_VIGNETTE" value="0" />
+      <Param name="GRADE_CONTRAST" value="-9.99999978e-03" />
+      <Param name="GRADE_EXPOSURE" value="-1.35000005e-01" />
+      <Param name="GRADE_GAMMA" value="4.39999998e-02" />
+      <Param name="GRADE_SATURATION" value="1.62000000e-01" />
+      <Param name="GRADE_VIBRANCE" value="1.65999994e-01" />
+      <Param name="INPUT_BLACK_LVL" value="4.000000" />
+      <Param name="INPUT_WHITE_LVL" value="232.000000" />
+      <Param name="TONECURVE_HIGHLIGHTS" value="0.000000" />
+      <Param name="TONECURVE_LIGHTS" value="0.000000" />
+      <Param name="TONECURVE_SHADOWS" value="0.000000" />
+      <Param name="VIGNETTE_BLEND_MODE" value="1" />
+      <Param name="VIGNETTE_BLURRYNESS_MECH" value="1.000000" />
+      <Param name="VIGNETTE_RADIUS_MECH" value="0.000000" />
+      <Param name="VIGNETTE_RADIUS_SENSOR" value="1.000000" />
+      <Param name="VIGNETTE_RATIO" value="0.000000" />
+      <Param name="CB_HI" value="0.00000000e+00,0.00000000e+00" />
+      <Param name="CB_MID" value="6.30544689e-01,3.50939369e-01" />
+      <Param name="CB_SHAD" value="0.00000000e+00,0.00000000e+00" />
+      <Param name="NODE1" value="2" />
+      <Param name="NODE2" value="8" />
+    </Variant>
+  </Technique>
+  <Technique name="MartysMods_RTGI_DIFFUSE.fx" variants="3">
+    <Variant index="1">
+      <Param name="RT_AMBIENT_LEVEL" value="5.29999971e-01" />
+      <Param name="RT_AO_AMOUNT" value="8.47999954e+00" />
+      <Param name="RT_FADE_DEPTH" value="6.97000027e-01" />
+      <Param name="RT_IL_AMOUNT" value="6.30999994e+00" />
+      <Param name="RT_Z_THICKNESS" value="2.00000003e-01" />
+    </Variant>
+    <Variant index="2">
+      <Param name="RT_AMBIENT_LEVEL" value="5.29999971e-01" />
+      <Param name="RT_AO_AMOUNT" value="5.25000048e+00" />
+      <Param name="RT_FADE_DEPTH" value="3.89999986e-01" />
+      <Param name="RT_IL_AMOUNT" value="4.80999994e+00" />
+      <Param name="RT_Z_THICKNESS" value="4.00000036e-01" />
+    </Variant>
+    <Variant index="3">
+      <Param name="RT_AMBIENT_LEVEL" value="5.29999971e-01" />
+      <Param name="RT_AO_AMOUNT" value="2.22000003e+00" />
+      <Param name="RT_FADE_DEPTH" value="2.23000005e-01" />
+      <Param name="RT_IL_AMOUNT" value="4.57999992e+00" />
+      <Param name="RT_Z_THICKNESS" value="3.00000012e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="MartysMods_RTGI_SPECULAR.fx" variants="5">
+    <Variant index="1">
+      <Param name="RT_FADE_DEPTH" value="5.60000002e-01" />
+      <Param name="RT_ROUGHNESS" value="8.29999983e-01" />
+      <Param name="RT_Z_THICKNESS" value="2.00000003e-01" />
+      <Param name="RT_FRESNEL_F0" value="1.00000000e+00" />
+    </Variant>
+    <Variant index="2">
+      <Param name="RT_FADE_DEPTH" value="3.89999986e-01" />
+      <Param name="RT_ROUGHNESS" value="5.29999971e-01" />
+      <Param name="RT_Z_THICKNESS" value="4.00000036e-01" />
+    </Variant>
+    <Variant index="3">
+      <Param name="RT_FADE_DEPTH" value="5.60000002e-01" />
+      <Param name="RT_ROUGHNESS" value="8.29999983e-01" />
+      <Param name="RT_Z_THICKNESS" value="2.00000003e-01" />
+      <Param name="RT_FRESNEL_F0" value="6.01900005e+00" />
+    </Variant>
+    <Variant index="4">
+      <Param name="RT_FADE_DEPTH" value="8.65000010e-01" />
+      <Param name="RT_ROUGHNESS" value="8.29999983e-01" />
+      <Param name="RT_Z_THICKNESS" value="2.00000003e-01" />
+      <Param name="RT_FRESNEL_F0" value="1.00000000e+01" />
+    </Variant>
+    <Variant index="5">
+      <Param name="RT_FADE_DEPTH" value="8.65000010e-01" />
+      <Param name="RT_ROUGHNESS" value="6.20000005e-01" />
+      <Param name="RT_Z_THICKNESS" value="3.00000012e-01" />
+      <Param name="RT_FRESNEL_F0" value="1.00000000e+01" />
+    </Variant>
+  </Technique>
+  <Technique name="MartysMods_SOLARIS.fx" variants="1">
+    <Variant index="1">
+      <Param name="BLOOM_DEPTH_MASK" value="1" />
+      <Param name="BLOOM_DEPTH_MASK_STRENGTH" value="0.500000" />
+      <Param name="BLOOM_HQ_DOWNSAMPLING" value="1" />
+      <Param name="HDR_BLOOM_INT" value="1.500000" />
+    </Variant>
+  </Technique>
+  <Technique name="MotionFocus.fx" variants="2">
+    <Variant index="1">
+      <Param name="mfFocusStrength" value="4.90000010e-01" />
+      <Param name="mfZoomStrength" value="1.59999996e-01" />
+    </Variant>
+    <Variant index="2">
+      <Param name="mfFocusStrength" value="7.37999976e-01" />
+      <Param name="mfZoomStrength" value="7.68999994e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="MultiLUT.fx" variants="1">
+    <Variant index="1">
+      <Param name="fLUT_AmountChroma" value="0.000000" />
+      <Param name="fLUT_AmountChroma2" value="1.000000" />
+      <Param name="fLUT_AmountChroma3" value="1.000000" />
+      <Param name="fLUT_AmountLuma" value="0.344000" />
+      <Param name="fLUT_AmountLuma2" value="1.000000" />
+      <Param name="fLUT_AmountLuma3" value="1.000000" />
+      <Param name="fLUT_Intensity" value="1.000000" />
+      <Param name="fLUT_Intensity2" value="1.000000" />
+      <Param name="fLUT_Intensity3" value="1.000000" />
+      <Param name="fLUT_LutSelector" value="5" />
+      <Param name="fLUT_LutSelector2" value="0" />
+      <Param name="fLUT_LutSelector3" value="0" />
+      <Param name="fLUT_MultiLUTSelector2" value="1" />
+      <Param name="fLUT_MultiLUTSelector3" value="1" />
+      <Param name="PreprocessorDefinitions" value="MultiLUTTexture_Source=0,MultiLUTTexture2=0,MultiLUTTexture3=0" />
+    </Variant>
+  </Technique>
+  <Technique name="MXAO 4.0.2 EX.fx" variants="1">
+    <Variant index="1">
+      <Param name="MXAO_AMOUNT_COARSE" value="0.780000" />
+      <Param name="MXAO_AMOUNT_FINE" value="1.205000" />
+      <Param name="MXAO_BLEND_TYPE" value="2" />
+      <Param name="MXAO_DEBUG_VIEW_ENABLE" value="0" />
+      <Param name="MXAO_FADE_DEPTH_END" value="0.400000" />
+      <Param name="MXAO_FADE_DEPTH_START" value="0.050000" />
+      <Param name="MXAO_GAMMA" value="1.000000" />
+      <Param name="MXAO_GLOBAL_RENDER_SCALE" value="1.000000" />
+      <Param name="MXAO_GLOBAL_SAMPLE_QUALITY_PRESET" value="3" />
+      <Param name="MXAO_SAMPLE_NORMAL_BIAS" value="0.069000" />
+      <Param name="MXAO_SAMPLE_RADIUS" value="1.931000" />
+      <Param name="MXAO_SAMPLE_RADIUS_SECONDARY" value="1.288000" />
+      <Param name="MXAO_SSAO_AMOUNT" value="3.012000" />
+    </Variant>
+  </Technique>
+  <Technique name="PD80_03_Shadows_Midtones_Highlights.fx" variants="2">
+    <Variant index="1">
+      <Param name="brightness_h" value="-1.00000000e+00" />
+      <Param name="contrast_h" value="1.29999995e-01" />
+      <Param name="exposure_h" value="3.81000012e-01" />
+    </Variant>
+    <Variant index="2">
+      <Param name="brightness_h" value="-1.22000001e-01" />
+      <Param name="brightness_s" value="2.50000000e-01" />
+      <Param name="exposure_h" value="-2.86000013e-01" />
+      <Param name="exposure_s" value="8.10000002e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="PD80_04_Color_Balance.fx" variants="1">
+    <Variant index="1">
+      <Param name="m_BlueShift" value="3.20000015e-02" />
+      <Param name="m_GreenShift" value="-7.10000023e-02" />
+      <Param name="m_RedShift" value="-3.05000007e-01" />
+      <Param name="s_GreenShift" value="-1.69000000e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="PD80_04_Contrast_Brightness_Saturation.fx" variants="160">
+    <Variant index="1">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="-6.75999999e-01" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="saturation" value="-1.58999994e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="2">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="-6.75999999e-01" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="saturation" value="2.49999985e-02" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="3">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="-6.75999999e-01" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="saturation" value="2.87999988e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="4">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="saturation" value="-1.18000001e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="5">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="saturation" value="2.89999992e-02" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="6">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="saturation" value="2.29000002e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="7">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="2.64999986e-01" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="saturation" value="-1.47000000e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="8">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="2.64999986e-01" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="9">
+      <Param name="brightness" value="1.09999999e-01" />
+      <Param name="contrast" value="2.64999986e-01" />
+      <Param name="exposureN" value="-5.41000009e-01" />
+      <Param name="saturation" value="1.52999997e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="10">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="-6.32000029e-01" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="-4.10000011e-02" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="11">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="-6.32000029e-01" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="1.00000001e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="12">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="-6.32000029e-01" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="3.24000001e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="13">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="-1.00000069e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="14">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="4.10000011e-02" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="15">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="2.40999997e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="16">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="4.33999985e-01" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="-1.69999957e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="17">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="4.33999985e-01" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="6.49999976e-02" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="18">
+      <Param name="brightness" value="8.00000131e-02" />
+      <Param name="contrast" value="4.33999985e-01" />
+      <Param name="exposureN" value="1.65000007e-01" />
+      <Param name="saturation" value="1.52999997e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="19">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="-5.50999999e-01" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="1.50000211e-02" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="20">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="-5.50999999e-01" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="2.24000007e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="21">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="-5.50999999e-01" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="4.00000006e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="22">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="-7.00000003e-02" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="23">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="1.18000001e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="24">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="4.19999994e-02" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="3.24000001e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="25">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="5.00000000e-01" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="-1.60000026e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="26">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="5.00000000e-01" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="2.40000002e-02" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="27">
+      <Param name="brightness" value="4.93000001e-01" />
+      <Param name="contrast" value="5.00000000e-01" />
+      <Param name="exposureN" value="9.39999968e-02" />
+      <Param name="saturation" value="1.28999993e-01" />
+      <Param name="tint" value="-2.50000022e-02" />
+      <Param name="vibrance" value="1.99999996e-02" />
+    </Variant>
+    <Variant index="28">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="-6.25000000e-01" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="2.52999991e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="29">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="-6.25000000e-01" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="5.05999982e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="30">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="-6.25000000e-01" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="7.53000021e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="31">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="5.90000004e-02" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="2.52999991e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="32">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="5.90000004e-02" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="5.28999984e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="33">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="5.90000004e-02" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="8.24000001e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="34">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="4.85000014e-01" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="2.52999991e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="35">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="4.85000014e-01" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="4.46999997e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="36">
+      <Param name="brightness" value="-5.37000000e-01" />
+      <Param name="contrast" value="4.85000014e-01" />
+      <Param name="exposureN" value="-6.81999981e-01" />
+      <Param name="saturation" value="6.75999999e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="37">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="-1.09999999e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="4.05999988e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="38">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="-1.09999999e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="7.23999977e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="39">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="-1.09999999e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="1.00000000e+00" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="40">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="2.56999999e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="3.40999991e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="41">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="2.56999999e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="6.71000004e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="42">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="2.56999999e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="8.75999987e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="43">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="6.32000029e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="2.00000003e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="44">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="6.32000029e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="4.05999988e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="45">
+      <Param name="brightness" value="-1.62000000e-01" />
+      <Param name="contrast" value="6.32000029e-01" />
+      <Param name="exposureN" value="-4.46999997e-01" />
+      <Param name="saturation" value="7.28999972e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="46">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="1.99000001e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="2.87999988e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="47">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="1.99000001e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="6.65000021e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="48">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="1.99000001e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="8.88000011e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="49">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="5.00000000e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="2.87999988e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="50">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="5.00000000e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="6.06000006e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="51">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="5.00000000e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="8.47000003e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="52">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="7.64999986e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="2.87999988e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="53">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="7.64999986e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="5.00000000e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="54">
+      <Param name="brightness" value="1.89999998e-01" />
+      <Param name="contrast" value="7.64999986e-01" />
+      <Param name="exposureN" value="-4.00000006e-01" />
+      <Param name="saturation" value="7.71000028e-01" />
+      <Param name="tint" value="-4.50000055e-02" />
+      <Param name="vibrance" value="-2.09999993e-01" />
+    </Variant>
+    <Variant index="55">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="-1.00000000e+00" />
+      <Param name="saturation" value="-7.40000010e-02" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="56">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="-1.00000000e+00" />
+      <Param name="saturation" value="1.19999997e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="57">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="-1.00000000e+00" />
+      <Param name="saturation" value="2.94999987e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="58">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="-1.33000001e-01" />
+      <Param name="saturation" value="-1.85000002e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="59">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="-1.33000001e-01" />
+      <Param name="saturation" value="-2.09999997e-02" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="60">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="-1.33000001e-01" />
+      <Param name="saturation" value="2.10999995e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="61">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="3.10000002e-01" />
+      <Param name="saturation" value="-2.72000015e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="62">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="3.10000002e-01" />
+      <Param name="saturation" value="-1.12000003e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="63">
+      <Param name="brightness" value="-6.94999993e-01" />
+      <Param name="contrast" value="3.10000002e-01" />
+      <Param name="saturation" value="1.01000004e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="64">
+      <Param name="contrast" value="-9.43000019e-01" />
+      <Param name="saturation" value="-4.39999998e-02" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="65">
+      <Param name="contrast" value="-9.43000019e-01" />
+      <Param name="saturation" value="1.72999993e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="66">
+      <Param name="contrast" value="-9.43000019e-01" />
+      <Param name="saturation" value="3.86999995e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="67">
+      <Param name="saturation" value="-1.35000005e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="68">
+      <Param name="saturation" value="7.00000003e-02" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="69">
+      <Param name="saturation" value="3.26000005e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="70">
+      <Param name="contrast" value="4.70999986e-01" />
+      <Param name="saturation" value="-2.64999986e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="71">
+      <Param name="contrast" value="4.70999986e-01" />
+      <Param name="saturation" value="-1.08999997e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="72">
+      <Param name="contrast" value="4.70999986e-01" />
+      <Param name="saturation" value="1.72999993e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="73">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="-5.18999994e-01" />
+      <Param name="saturation" value="3.99999991e-02" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="74">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="-5.18999994e-01" />
+      <Param name="saturation" value="2.41999999e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="75">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="-5.18999994e-01" />
+      <Param name="saturation" value="4.16999996e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="76">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="2.09999993e-01" />
+      <Param name="saturation" value="-7.00000003e-02" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="77">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="2.09999993e-01" />
+      <Param name="saturation" value="1.47000000e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="78">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="2.09999993e-01" />
+      <Param name="saturation" value="3.93999994e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="79">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="7.09999979e-01" />
+      <Param name="saturation" value="-2.52999991e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="80">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="7.09999979e-01" />
+      <Param name="saturation" value="-2.89999992e-02" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="81">
+      <Param name="brightness" value="4.23999995e-01" />
+      <Param name="contrast" value="7.09999979e-01" />
+      <Param name="saturation" value="2.00000003e-01" />
+      <Param name="vibrance" value="-1.00000001e-01" />
+    </Variant>
+    <Variant index="82">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="-1.79999995e+00" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="6.70000017e-02" />
+    </Variant>
+    <Variant index="83">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="-1.79999995e+00" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="3.93999994e-01" />
+    </Variant>
+    <Variant index="84">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="-1.79999995e+00" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="6.69000030e-01" />
+    </Variant>
+    <Variant index="85">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="-1.00000000e+00" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="-6.30000010e-02" />
+    </Variant>
+    <Variant index="86">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="-1.00000000e+00" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="2.64999986e-01" />
+    </Variant>
+    <Variant index="87">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="-1.00000000e+00" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="6.23000026e-01" />
+    </Variant>
+    <Variant index="88">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="3.79999988e-02" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="-8.60000029e-02" />
+    </Variant>
+    <Variant index="89">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="3.79999988e-02" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="2.23000005e-01" />
+    </Variant>
+    <Variant index="90">
+      <Param name="brightness" value="-9.86000001e-01" />
+      <Param name="contrast" value="3.79999988e-02" />
+      <Param name="exposureN" value="-6.32000029e-01" />
+      <Param name="saturation" value="6.46000028e-01" />
+    </Variant>
+    <Variant index="91">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="-8.99999976e-01" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="1.19999997e-01" />
+    </Variant>
+    <Variant index="92">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="-8.99999976e-01" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="4.32000011e-01" />
+    </Variant>
+    <Variant index="93">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="-8.99999976e-01" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="8.43999982e-01" />
+    </Variant>
+    <Variant index="94">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="-7.59999976e-02" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="-5.90000004e-02" />
+    </Variant>
+    <Variant index="95">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="-7.59999976e-02" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="3.30000013e-01" />
+    </Variant>
+    <Variant index="96">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="-7.59999976e-02" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="8.01999986e-01" />
+    </Variant>
+    <Variant index="97">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="4.09999996e-01" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="-6.70000017e-02" />
+    </Variant>
+    <Variant index="98">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="4.09999996e-01" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="1.38999999e-01" />
+    </Variant>
+    <Variant index="99">
+      <Param name="brightness" value="-3.95000011e-01" />
+      <Param name="contrast" value="4.09999996e-01" />
+      <Param name="exposureN" value="-2.06000000e-01" />
+      <Param name="saturation" value="4.09999996e-01" />
+    </Variant>
+    <Variant index="100">
+      <Param name="contrast" value="-3.86000007e-01" />
+      <Param name="saturation" value="1.19999997e-01" />
+    </Variant>
+    <Variant index="101">
+      <Param name="contrast" value="-3.86000007e-01" />
+      <Param name="saturation" value="4.39999998e-01" />
+    </Variant>
+    <Variant index="102">
+      <Param name="contrast" value="-3.86000007e-01" />
+      <Param name="saturation" value="6.88000023e-01" />
+    </Variant>
+    <Variant index="103">
+      <Param name="saturation" value="2.75999993e-01" />
+    </Variant>
+    <Variant index="104">
+      <Param name="saturation" value="6.88000023e-01" />
+    </Variant>
+    <Variant index="105">
+      <Param name="contrast" value="5.51999986e-01" />
+      <Param name="saturation" value="-1.70000009e-02" />
+    </Variant>
+    <Variant index="106">
+      <Param name="contrast" value="5.51999986e-01" />
+      <Param name="saturation" value="2.75999993e-01" />
+    </Variant>
+    <Variant index="107">
+      <Param name="contrast" value="5.51999986e-01" />
+      <Param name="saturation" value="5.15999973e-01" />
+    </Variant>
+    <Variant index="108">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="-3.19000006e-01" />
+      <Param name="saturation" value="-1.19999997e-01" />
+    </Variant>
+    <Variant index="109">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="-3.19000006e-01" />
+      <Param name="saturation" value="9.70000029e-02" />
+    </Variant>
+    <Variant index="110">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="-3.19000006e-01" />
+      <Param name="saturation" value="3.17999989e-01" />
+    </Variant>
+    <Variant index="111">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="2.32999995e-01" />
+      <Param name="saturation" value="-1.19999997e-01" />
+    </Variant>
+    <Variant index="112">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="2.32999995e-01" />
+      <Param name="saturation" value="1.95999995e-01" />
+    </Variant>
+    <Variant index="113">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="2.32999995e-01" />
+      <Param name="saturation" value="4.35999990e-01" />
+    </Variant>
+    <Variant index="114">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="6.24000013e-01" />
+      <Param name="saturation" value="-1.19999997e-01" />
+    </Variant>
+    <Variant index="115">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="6.24000013e-01" />
+      <Param name="saturation" value="7.00000003e-02" />
+    </Variant>
+    <Variant index="116">
+      <Param name="brightness" value="-7.09999979e-01" />
+      <Param name="contrast" value="6.24000013e-01" />
+      <Param name="saturation" value="3.49000007e-01" />
+    </Variant>
+    <Variant index="117">
+      <Param name="saturation" value="2.64999986e-01" />
+    </Variant>
+    <Variant index="118">
+      <Param name="saturation" value="5.46999991e-01" />
+    </Variant>
+    <Variant index="119">
+      <Param name="contrast" value="4.19000000e-01" />
+    </Variant>
+    <Variant index="120">
+      <Param name="contrast" value="4.19000000e-01" />
+      <Param name="saturation" value="2.75999993e-01" />
+    </Variant>
+    <Variant index="121">
+      <Param name="contrast" value="4.19000000e-01" />
+      <Param name="saturation" value="5.80999970e-01" />
+    </Variant>
+    <Variant index="122">
+      <Param name="contrast" value="8.19000006e-01" />
+    </Variant>
+    <Variant index="123">
+      <Param name="contrast" value="8.19000006e-01" />
+      <Param name="saturation" value="2.23000005e-01" />
+    </Variant>
+    <Variant index="124">
+      <Param name="contrast" value="8.19000006e-01" />
+      <Param name="saturation" value="4.02000010e-01" />
+    </Variant>
+    <Variant index="125">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="4.42999989e-01" />
+      <Param name="saturation" value="-1.30000003e-02" />
+    </Variant>
+    <Variant index="126">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="4.42999989e-01" />
+      <Param name="saturation" value="2.50000000e-01" />
+    </Variant>
+    <Variant index="127">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="4.42999989e-01" />
+      <Param name="saturation" value="4.74000007e-01" />
+    </Variant>
+    <Variant index="128">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="7.81000018e-01" />
+      <Param name="saturation" value="-1.30000003e-02" />
+    </Variant>
+    <Variant index="129">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="7.81000018e-01" />
+      <Param name="saturation" value="2.00000003e-01" />
+    </Variant>
+    <Variant index="130">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="7.81000018e-01" />
+      <Param name="saturation" value="4.39999998e-01" />
+    </Variant>
+    <Variant index="131">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="1.03299999e+00" />
+      <Param name="saturation" value="-1.30000003e-02" />
+    </Variant>
+    <Variant index="132">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="1.03299999e+00" />
+      <Param name="saturation" value="2.30000004e-01" />
+    </Variant>
+    <Variant index="133">
+      <Param name="brightness" value="5.37999988e-01" />
+      <Param name="contrast" value="1.03299999e+00" />
+      <Param name="saturation" value="4.44000006e-01" />
+    </Variant>
+    <Variant index="134">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="3.61999989e-01" />
+      <Param name="saturation" value="1.50000006e-02" />
+    </Variant>
+    <Variant index="135">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="3.61999989e-01" />
+      <Param name="saturation" value="2.87999988e-01" />
+    </Variant>
+    <Variant index="136">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="3.61999989e-01" />
+      <Param name="saturation" value="5.31000018e-01" />
+    </Variant>
+    <Variant index="137">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="6.38000011e-01" />
+      <Param name="saturation" value="1.50000006e-02" />
+    </Variant>
+    <Variant index="138">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="6.38000011e-01" />
+      <Param name="saturation" value="2.15000004e-01" />
+    </Variant>
+    <Variant index="139">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="6.38000011e-01" />
+      <Param name="saturation" value="3.86999995e-01" />
+    </Variant>
+    <Variant index="140">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="7.95000017e-01" />
+      <Param name="saturation" value="-7.40000010e-02" />
+    </Variant>
+    <Variant index="141">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="7.95000017e-01" />
+      <Param name="saturation" value="9.70000029e-02" />
+    </Variant>
+    <Variant index="142">
+      <Param name="brightness" value="4.56999987e-01" />
+      <Param name="contrast" value="7.95000017e-01" />
+      <Param name="saturation" value="3.75000000e-01" />
+    </Variant>
+    <Variant index="143">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="-9.38000023e-01" />
+      <Param name="saturation" value="1.19999997e-01" />
+    </Variant>
+    <Variant index="144">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="-9.38000023e-01" />
+      <Param name="saturation" value="3.49000007e-01" />
+    </Variant>
+    <Variant index="145">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="-9.38000023e-01" />
+      <Param name="saturation" value="5.77000022e-01" />
+    </Variant>
+    <Variant index="146">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="-2.80999988e-01" />
+      <Param name="saturation" value="-1.23999998e-01" />
+    </Variant>
+    <Variant index="147">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="-2.80999988e-01" />
+      <Param name="saturation" value="1.38999999e-01" />
+    </Variant>
+    <Variant index="148">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="-2.80999988e-01" />
+      <Param name="saturation" value="3.70999992e-01" />
+    </Variant>
+    <Variant index="149">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="1.19000003e-01" />
+      <Param name="saturation" value="-1.23999998e-01" />
+    </Variant>
+    <Variant index="150">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="1.19000003e-01" />
+      <Param name="saturation" value="1.43000007e-01" />
+    </Variant>
+    <Variant index="151">
+      <Param name="brightness" value="-1.00000000e+00" />
+      <Param name="contrast" value="1.19000003e-01" />
+      <Param name="saturation" value="5.80999970e-01" />
+    </Variant>
+    <Variant index="152">
+      <Param name="contrast" value="-8.10000002e-02" />
+    </Variant>
+    <Variant index="153">
+      <Param name="contrast" value="-8.10000002e-02" />
+      <Param name="saturation" value="4.35999990e-01" />
+    </Variant>
+    <Variant index="154">
+      <Param name="contrast" value="-8.10000002e-02" />
+      <Param name="saturation" value="8.13000023e-01" />
+    </Variant>
+    <Variant index="155">
+      <Param name="contrast" value="2.61999995e-01" />
+    </Variant>
+    <Variant index="156">
+      <Param name="contrast" value="2.61999995e-01" />
+      <Param name="saturation" value="3.93999994e-01" />
+    </Variant>
+    <Variant index="157">
+      <Param name="contrast" value="2.61999995e-01" />
+      <Param name="saturation" value="6.42000020e-01" />
+    </Variant>
+    <Variant index="158">
+      <Param name="contrast" value="5.13999999e-01" />
+    </Variant>
+    <Variant index="159">
+      <Param name="contrast" value="5.13999999e-01" />
+      <Param name="saturation" value="2.33999997e-01" />
+    </Variant>
+    <Variant index="160">
+      <Param name="contrast" value="5.13999999e-01" />
+      <Param name="saturation" value="6.03999972e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="PD80_04_Selective_Color_v2.fx" variants="4">
+    <Variant index="1">
+      <Param name="c_adj_cya" value="-2.10999995e-01" />
+      <Param name="c_adj_mag" value="3.03000003e-01" />
+      <Param name="c_adj_sat" value="-4.51000005e-01" />
+      <Param name="gc_adj_mag" value="2.00000009e-03" />
+      <Param name="gc_adj_sat" value="2.00000009e-03" />
+      <Param name="r_adj_sat" value="-2.38000005e-01" />
+    </Variant>
+    <Variant index="2">
+      <Param name="c_adj_cya" value="-3.68000001e-01" />
+      <Param name="c_adj_mag" value="2.26999998e-01" />
+      <Param name="c_adj_sat" value="-3.68000001e-01" />
+      <Param name="r_adj_sat" value="-1.89999998e-01" />
+    </Variant>
+    <Variant index="3">
+      <Param name="c_adj_cya" value="-3.70999992e-01" />
+      <Param name="c_adj_lig" value="1.00000000e+00" />
+      <Param name="c_adj_mag" value="4.39999998e-02" />
+      <Param name="c_adj_sat" value="-1.70000002e-01" />
+      <Param name="o_adj_mag" value="9.00000036e-02" />
+      <Param name="o_adj_sat" value="-1.70000002e-01" />
+      <Param name="o_adj_yel" value="-1.50000006e-01" />
+      <Param name="yg_adj_sat" value="-3.33000004e-01" />
+    </Variant>
+    <Variant index="4">
+      <Param name="gc_adj_bla" value="1.12000003e-01" />
+      <Param name="gc_adj_sat" value="-1.58000007e-01" />
+      <Param name="g_adj_bla" value="7.00000003e-02" />
+      <Param name="n_adj_sat" value="1.15999997e-01" />
+      <Param name="r_adj_bla" value="1.15999997e-01" />
+      <Param name="r_adj_sat" value="-3.20000015e-02" />
+      <Param name="r_adj_yel" value="-5.49999997e-02" />
+      <Param name="yg_adj_cya" value="1.77000001e-01" />
+      <Param name="yg_adj_yel" value="-2.52999991e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="PD80_05_Sharpening.fx" variants="1">
+    <Variant index="1">
+      <Param name="BlurSigma" value="6.15000010e-01" />
+      <Param name="limiter" value="1.89999998e-01" />
+      <Param name="Sharpening" value="1.77100003e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="PD80_06_Depth_Slicer.fx" variants="1">
+    <Variant index="1">
+      <Param name="blendmode_1" value="19" />
+      <Param name="depthpos" value="9.58000004e-01" />
+      <Param name="depth_far" value="5.00000035e-03" />
+      <Param name="depth_near" value="1.00000000e+00" />
+      <Param name="depth_smoothing" value="7.10000023e-02" />
+      <Param name="hue" value="6.26999974e-01" />
+      <Param name="intensity" value="2.75999993e-01" />
+      <Param name="saturation" value="1.00000000e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="Posterize.fx" variants="1">
+    <Variant index="1">
+      <Param name="PALETTE_COLOR_1" value="0.000000,0.000001,0.000001" />
+      <Param name="PALETTE_COLOR_2" value="0.000001,0.000001,0.000001" />
+      <Param name="PALETTE_COLOR_3" value="1.000000,0.999990,0.999990" />
+      <Param name="PALETTE_COLOR_4" value="0.000001,0.000001,0.000001" />
+    </Variant>
+  </Technique>
+  <Technique name="RetroFog2.fx" variants="1">
+    <Variant index="1">
+      <Param name="fOpacityTwo" value="1.97999999e-01" />
+      <Param name="fStartTwo" value="3.81999999e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="SCurve.fx" variants="1">
+    <Variant index="1">
+      <Param name="f4Offsets" value="0.000000,0.000000,0.000000,0.000000" />
+      <Param name="fCurve" value="1.000000" />
+    </Variant>
+  </Technique>
+  <Technique name="SimpleBloom.fx" variants="1">
+    <Variant index="1">
+      <Param name="Blend" value="0.000000,1.000000" />
+      <Param name="BlurMultiplier" value="2.330000" />
+    </Variant>
+  </Technique>
+  <Technique name="SMAA.fx" variants="1">
+    <Variant index="1">
+      <Param name="CornerRounding" value="25" />
+      <Param name="DebugOutput" value="0" />
+      <Param name="DepthEdgeDetectionThreshold" value="0.010000" />
+      <Param name="EdgeDetectionThreshold" value="0.100000" />
+      <Param name="EdgeDetectionType" value="1" />
+      <Param name="MaxSearchSteps" value="32" />
+      <Param name="MaxSearchStepsDiagonal" value="16" />
+    </Variant>
+  </Technique>
+  <Technique name="SSAO.fx" variants="2">
+    <Variant index="1">
+      <Param name="AO_BLUR_STEPS" value="11" />
+      <Param name="AO_DEBUG" value="0" />
+      <Param name="AO_FADE_END" value="0.490000" />
+      <Param name="AO_FADE_START" value="0.429000" />
+      <Param name="AO_LUMINANCE_CONSIDERATION" value="1" />
+      <Param name="AO_LUMINANCE_LOWER" value="0.548000" />
+      <Param name="AO_LUMINANCE_UPPER" value="0.571000" />
+      <Param name="AO_SHARPNESS" value="0.050000" />
+      <Param name="AO_SHARPNESS_DETECT" value="1" />
+      <Param name="AO_TEXSCALE" value="1.000000" />
+      <Param name="fHBAOAmount" value="3.000000" />
+      <Param name="fHBAOAttenuation" value="0.020000" />
+      <Param name="fHBAOClamp" value="0.100000" />
+      <Param name="fHBAOSamplingRange" value="2.600000" />
+      <Param name="fRayAOMaxDepth" value="0.020000" />
+      <Param name="fRayAOMinDepth" value="0.001000" />
+      <Param name="fRayAOPower" value="2.000000" />
+      <Param name="fRayAOSamplingRange" value="0.001000" />
+      <Param name="fSAOBias" value="0.200000" />
+      <Param name="fSAOClamp" value="2.500000" />
+      <Param name="fSAOIntensity" value="6.000000" />
+      <Param name="fSAORadius" value="2.300000" />
+      <Param name="fSSAOBrighteningAmount" value="1.000000" />
+      <Param name="fSSAODarkeningAmount" value="1.500000" />
+      <Param name="fSSAOSamplingRange" value="50.000000" />
+      <Param name="fSSGIModelThickness" value="10.000000" />
+      <Param name="fSSGIOcclusionMult" value="0.800000" />
+      <Param name="fSSGISamplingRange" value="0.400000" />
+      <Param name="fSSGISaturation" value="1.800000" />
+      <Param name="iHBAOSamples" value="9" />
+      <Param name="iRayAOSamples" value="24" />
+      <Param name="iSAOSamples" value="18.000000" />
+      <Param name="iSSAOSamples" value="16" />
+      <Param name="iSSAOSmartSampling" value="0" />
+      <Param name="iSSGISamples" value="9" />
+    </Variant>
+    <Variant index="2">
+      <Param name="AO_BLUR_STEPS" value="11" />
+      <Param name="AO_DEBUG" value="0" />
+      <Param name="AO_FADE_END" value="0.490000" />
+      <Param name="AO_FADE_START" value="0.429000" />
+      <Param name="AO_LUMINANCE_CONSIDERATION" value="1" />
+      <Param name="AO_LUMINANCE_LOWER" value="0.548000" />
+      <Param name="AO_LUMINANCE_UPPER" value="0.571000" />
+      <Param name="AO_SHARPNESS" value="0.050000" />
+      <Param name="AO_SHARPNESS_DETECT" value="1" />
+      <Param name="AO_TEXSCALE" value="1.000000" />
+      <Param name="fHBAOAmount" value="3.000000" />
+      <Param name="fHBAOAttenuation" value="0.020000" />
+      <Param name="fHBAOClamp" value="0.100000" />
+      <Param name="fHBAOSamplingRange" value="2.600000" />
+      <Param name="fRayAOMaxDepth" value="0.020000" />
+      <Param name="fRayAOMinDepth" value="0.001000" />
+      <Param name="fRayAOPower" value="2.000000" />
+      <Param name="fRayAOSamplingRange" value="0.001000" />
+      <Param name="fSAOBias" value="0.200000" />
+      <Param name="fSAOClamp" value="2.500000" />
+      <Param name="fSAOIntensity" value="6.000000" />
+      <Param name="fSAORadius" value="2.300000" />
+      <Param name="fSSAOBrighteningAmount" value="1.000000" />
+      <Param name="fSSAODarkeningAmount" value="1.500000" />
+      <Param name="fSSAOSamplingRange" value="50.000000" />
+      <Param name="fSSGIIlluminationMult" value="4.500000" />
+      <Param name="fSSGIModelThickness" value="10.000000" />
+      <Param name="fSSGIOcclusionMult" value="0.800000" />
+      <Param name="fSSGISamplingRange" value="0.400000" />
+      <Param name="fSSGISaturation" value="1.800000" />
+      <Param name="iHBAOSamples" value="9" />
+      <Param name="iRayAOSamples" value="24" />
+      <Param name="iSAOSamples" value="18.000000" />
+      <Param name="iSSAOSamples" value="16" />
+      <Param name="iSSAOSmartSampling" value="0" />
+      <Param name="iSSGISamples" value="9" />
+    </Variant>
+  </Technique>
+  <Technique name="Technicolor.fx" variants="1">
+    <Variant index="1">
+      <Param name="Power" value="2.903000" />
+      <Param name="RGBNegativeAmount" value="0.784314,0.878431,0.878431" />
+      <Param name="Strength" value="0.000000" />
+    </Variant>
+  </Technique>
+  <Technique name="Technicolor2.fx" variants="1">
+    <Variant index="1">
+      <Param name="Brightness" value="1.000000" />
+      <Param name="ColorStrength" value="0.200000,0.200000,0.200000" />
+      <Param name="Saturation" value="1.000000" />
+      <Param name="Strength" value="1.000000" />
+    </Variant>
+  </Technique>
+  <Technique name="Tonemap.fx" variants="6">
+    <Variant index="1">
+      <Param name="Defog" value="4.80000116e-02" />
+      <Param name="Exposure" value="6.00000052e-03" />
+      <Param name="FogColor" value="1.33794695e-01,1.56862751e-01,0.00000000e+00" />
+      <Param name="Gamma" value="1.10099995e+00" />
+      <Param name="Saturation" value="5.35000026e-01" />
+    </Variant>
+    <Variant index="2">
+      <Param name="Defog" value="6.49999976e-02" />
+      <Param name="Exposure" value="2.50000004e-02" />
+      <Param name="FogColor" value="1.76470578e-01,1.55709341e-01,0.00000000e+00" />
+      <Param name="Saturation" value="3.44999999e-01" />
+    </Variant>
+    <Variant index="3">
+      <Param name="Bleach" value="1.14999995e-01" />
+      <Param name="Defog" value="4.49999943e-02" />
+      <Param name="Exposure" value="6.00000052e-03" />
+      <Param name="FogColor" value="1.10726647e-01,1.56862736e-01,0.00000000e+00" />
+      <Param name="Gamma" value="1.24500000e+00" />
+      <Param name="Saturation" value="4.84999955e-01" />
+    </Variant>
+    <Variant index="4">
+      <Param name="Defog" value="4.19999994e-02" />
+      <Param name="Exposure" value="2.50000004e-02" />
+      <Param name="FogColor" value="1.33333340e-01,1.56862751e-01,0.00000000e+00" />
+      <Param name="Saturation" value="7.07000017e-01" />
+    </Variant>
+    <Variant index="5">
+      <Param name="Bleach" value="7.49999434e-02" />
+      <Param name="Defog" value="2.50000153e-02" />
+      <Param name="Exposure" value="9.99999978e-03" />
+      <Param name="FogColor" value="1.47567555e-01,2.45098054e-01,1.00922719e-01" />
+      <Param name="Gamma" value="1.02999985e+00" />
+    </Variant>
+    <Variant index="6">
+      <Param name="Bleach" value="7.49999434e-02" />
+      <Param name="Defog" value="3.50000113e-02" />
+      <Param name="FogColor" value="1.56862751e-01,1.76470593e-01,1.96078435e-01" />
+      <Param name="Gamma" value="1.05999994e+00" />
+      <Param name="Saturation" value="-2.98999995e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="UnrealLens.fx" variants="1">
+    <Variant index="1">
+      <Param name="Brightness" value="1.43000007e-01" />
+      <Param name="EdgesMasking" value="5.18000007e-01" />
+      <Param name="Saturation" value="8.70000005e-01" />
+      <Param name="Threshold" value="7.04999983e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="qUINT_lightroom.fx" variants="4">
+    <Variant index="1">
+      <Param name="LIGHTROOM_AQUA_EXPOSURE" value="-0.013000" />
+      <Param name="LIGHTROOM_AQUA_HUESHIFT" value="0.164000" />
+      <Param name="LIGHTROOM_AQUA_SATURATION" value="0.024000" />
+      <Param name="LIGHTROOM_BLUE_EXPOSURE" value="-0.213000" />
+      <Param name="LIGHTROOM_BLUE_HUESHIFT" value="0.132000" />
+      <Param name="LIGHTROOM_BLUE_SATURATION" value="-0.008000" />
+      <Param name="LIGHTROOM_ENABLE_VIGNETTE" value="0" />
+      <Param name="LIGHTROOM_GLOBAL_BLACKS_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_BLACK_LEVEL" value="4.000000" />
+      <Param name="LIGHTROOM_GLOBAL_CONTRAST" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_EXPOSURE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_GAMMA" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_HIGHLIGHTS_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_SATURATION" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_SHADOWS_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_TEMPERATURE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_TINT" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_VIBRANCE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_WHITES_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_WHITE_LEVEL" value="232.000000" />
+      <Param name="LIGHTROOM_GREEN_EXPOSURE" value="0.461000" />
+      <Param name="LIGHTROOM_GREEN_HUESHIFT" value="0.288000" />
+      <Param name="LIGHTROOM_GREEN_SATURATION" value="-0.660000" />
+      <Param name="LIGHTROOM_MAGENTA_EXPOSURE" value="0.062000" />
+      <Param name="LIGHTROOM_MAGENTA_HUESHIFT" value="-0.078000" />
+      <Param name="LIGHTROOM_MAGENTA_SATURATION" value="0.000000" />
+      <Param name="LIGHTROOM_ORANGE_EXPOSURE" value="-1.000000" />
+      <Param name="LIGHTROOM_ORANGE_HUESHIFT" value="0.035000" />
+      <Param name="LIGHTROOM_ORANGE_SATURATION" value="0.000000" />
+      <Param name="LIGHTROOM_RED_EXPOSURE" value="-0.639000" />
+      <Param name="LIGHTROOM_RED_HUESHIFT" value="-0.105000" />
+      <Param name="LIGHTROOM_RED_SATURATION" value="0.181000" />
+      <Param name="LIGHTROOM_VIGNETTE_BLEND_MODE" value="1" />
+      <Param name="LIGHTROOM_VIGNETTE_CURVE" value="1.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_RADIUS_INNER" value="0.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_RADIUS_OUTER" value="1.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_WIDTH" value="0.000000" />
+      <Param name="LIGHTROOM_YELLOW_EXPOSURE" value="0.046000" />
+      <Param name="LIGHTROOM_YELLOW_HUESHIFT" value="-0.019000" />
+      <Param name="LIGHTROOM_YELLOW_SATURATION" value="-0.175000" />
+    </Variant>
+    <Variant index="2">
+      <Param name="LIGHTROOM_AQUA_EXPOSURE" value="-0.013000" />
+      <Param name="LIGHTROOM_AQUA_HUESHIFT" value="0.164000" />
+      <Param name="LIGHTROOM_AQUA_SATURATION" value="2.39999995e-01" />
+      <Param name="LIGHTROOM_BLUE_EXPOSURE" value="-0.213000" />
+      <Param name="LIGHTROOM_BLUE_HUESHIFT" value="0.132000" />
+      <Param name="LIGHTROOM_BLUE_SATURATION" value="-0.008000" />
+      <Param name="LIGHTROOM_ENABLE_VIGNETTE" value="0" />
+      <Param name="LIGHTROOM_GLOBAL_BLACKS_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_BLACK_LEVEL" value="4.000000" />
+      <Param name="LIGHTROOM_GLOBAL_CONTRAST" value="-1.12000003e-01" />
+      <Param name="LIGHTROOM_GLOBAL_EXPOSURE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_GAMMA" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_HIGHLIGHTS_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_SATURATION" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_SHADOWS_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_TEMPERATURE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_TINT" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_VIBRANCE" value="2.00000009e-03" />
+      <Param name="LIGHTROOM_GLOBAL_WHITES_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_WHITE_LEVEL" value="232.000000" />
+      <Param name="LIGHTROOM_GREEN_EXPOSURE" value="0.461000" />
+      <Param name="LIGHTROOM_GREEN_HUESHIFT" value="0.288000" />
+      <Param name="LIGHTROOM_GREEN_SATURATION" value="-0.660000" />
+      <Param name="LIGHTROOM_MAGENTA_EXPOSURE" value="0.062000" />
+      <Param name="LIGHTROOM_MAGENTA_HUESHIFT" value="-0.078000" />
+      <Param name="LIGHTROOM_MAGENTA_SATURATION" value="0.000000" />
+      <Param name="LIGHTROOM_ORANGE_EXPOSURE" value="-1.000000" />
+      <Param name="LIGHTROOM_ORANGE_HUESHIFT" value="0.035000" />
+      <Param name="LIGHTROOM_ORANGE_SATURATION" value="0.000000" />
+      <Param name="LIGHTROOM_RED_EXPOSURE" value="-0.639000" />
+      <Param name="LIGHTROOM_RED_HUESHIFT" value="-0.105000" />
+      <Param name="LIGHTROOM_RED_SATURATION" value="0.181000" />
+      <Param name="LIGHTROOM_VIGNETTE_BLEND_MODE" value="1" />
+      <Param name="LIGHTROOM_VIGNETTE_CURVE" value="1.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_RADIUS_INNER" value="0.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_RADIUS_OUTER" value="1.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_WIDTH" value="0.000000" />
+      <Param name="LIGHTROOM_YELLOW_EXPOSURE" value="0.046000" />
+      <Param name="LIGHTROOM_YELLOW_HUESHIFT" value="-0.019000" />
+      <Param name="LIGHTROOM_YELLOW_SATURATION" value="-0.175000" />
+    </Variant>
+    <Variant index="3">
+      <Param name="LIGHTROOM_GLOBAL_SATURATION" value="1.62000000e-01" />
+      <Param name="LIGHTROOM_GLOBAL_VIBRANCE" value="-1.70000009e-02" />
+      <Param name="LIGHTROOM_ORANGE_EXPOSURE" value="0.000000" />
+      <Param name="LIGHTROOM_ORANGE_HUESHIFT" value="0.000000" />
+      <Param name="LIGHTROOM_ORANGE_SATURATION" value="-5.90000004e-02" />
+      <Param name="LIGHTROOM_RED_EXPOSURE" value="0.000000" />
+      <Param name="LIGHTROOM_RED_HUESHIFT" value="0.000000" />
+      <Param name="LIGHTROOM_RED_SATURATION" value="1.04999997e-01" />
+      <Param name="LIGHTROOM_YELLOW_EXPOSURE" value="0.000000" />
+      <Param name="LIGHTROOM_YELLOW_HUESHIFT" value="1.72999993e-01" />
+      <Param name="LIGHTROOM_YELLOW_SATURATION" value="1.04999997e-01" />
+    </Variant>
+    <Variant index="4">
+      <Param name="LIGHTROOM_ENABLE_VIGNETTE" value="0" />
+      <Param name="LIGHTROOM_GLOBAL_BLACKS_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_BLACK_LEVEL" value="4.000000" />
+      <Param name="LIGHTROOM_GLOBAL_CONTRAST" value="-9.99999978e-03" />
+      <Param name="LIGHTROOM_GLOBAL_EXPOSURE" value="-1.35000005e-01" />
+      <Param name="LIGHTROOM_GLOBAL_GAMMA" value="4.39999998e-02" />
+      <Param name="LIGHTROOM_GLOBAL_HIGHLIGHTS_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_SATURATION" value="1.62000000e-01" />
+      <Param name="LIGHTROOM_GLOBAL_VIBRANCE" value="1.65999994e-01" />
+      <Param name="LIGHTROOM_GLOBAL_WHITES_CURVE" value="0.000000" />
+      <Param name="LIGHTROOM_GLOBAL_WHITE_LEVEL" value="232.000000" />
+      <Param name="LIGHTROOM_GREEN_EXPOSURE" value="-3.40999991e-01" />
+      <Param name="LIGHTROOM_GREEN_HUESHIFT" value="0.000000" />
+      <Param name="LIGHTROOM_GREEN_SATURATION" value="-1.19999997e-01" />
+      <Param name="LIGHTROOM_MAGENTA_EXPOSURE" value="0.000000" />
+      <Param name="LIGHTROOM_MAGENTA_HUESHIFT" value="0.000000" />
+      <Param name="LIGHTROOM_MAGENTA_SATURATION" value="0.000000" />
+      <Param name="LIGHTROOM_ORANGE_EXPOSURE" value="0.000000" />
+      <Param name="LIGHTROOM_ORANGE_HUESHIFT" value="-1.58000007e-01" />
+      <Param name="LIGHTROOM_ORANGE_SATURATION" value="0.000000" />
+      <Param name="LIGHTROOM_RED_EXPOSURE" value="0.000000" />
+      <Param name="LIGHTROOM_RED_HUESHIFT" value="0.000000" />
+      <Param name="LIGHTROOM_RED_SATURATION" value="4.39999998e-02" />
+      <Param name="LIGHTROOM_VIGNETTE_BLEND_MODE" value="1" />
+      <Param name="LIGHTROOM_VIGNETTE_CURVE" value="1.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_RADIUS_INNER" value="0.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_RADIUS_OUTER" value="1.000000" />
+      <Param name="LIGHTROOM_VIGNETTE_WIDTH" value="0.000000" />
+      <Param name="LIGHTROOM_YELLOW_EXPOSURE" value="-1.95999995e-01" />
+      <Param name="LIGHTROOM_YELLOW_HUESHIFT" value="0.000000" />
+      <Param name="LIGHTROOM_YELLOW_SATURATION" value="-1.72999993e-01" />
+    </Variant>
+  </Technique>
+  <Technique name="qUINT_bloom.fx" variants="1">
+    <Variant index="1">
+      <Param name="BLOOM_INTENSITY" value="1.500000" />
+    </Variant>
+  </Technique>
+  <Technique name="qUINT_dof.fx" variants="6">
+    <Variant index="1">
+      <Param name="bADOF_AutofocusEnable" value="1" />
+      <Param name="fADOF_AutofocusCenter" value="0.500000,0.500000" />
+      <Param name="fADOF_AutofocusRadius" value="0.600000" />
+      <Param name="fADOF_AutofocusSpeed" value="0.508000" />
+      <Param name="fADOF_BokehIntensity" value="0.300000" />
+      <Param name="fADOF_ManualfocusDepth" value="0.001000" />
+      <Param name="fADOF_RenderResolutionMult" value="0.500000" />
+      <Param name="fADOF_ShapeCurvatureAmount" value="1.000000" />
+      <Param name="fADOF_ShapeRadius" value="20.500000" />
+      <Param name="fADOF_ShapeRotation" value="0.000000" />
+      <Param name="fADOF_SmootheningAmount" value="4.000000" />
+      <Param name="iADOF_ShapeQuality" value="5" />
+      <Param name="iADOF_ShapeVertices" value="6" />
+    </Variant>
+    <Variant index="2">
+      <Param name="bADOF_AutofocusEnable" value="1" />
+      <Param name="fADOF_AutofocusCenter" value="5.00000000e-01,3.49999994e-01" />
+      <Param name="fADOF_AutofocusRadius" value="4.55000013e-01" />
+      <Param name="fADOF_AutofocusSpeed" value="0.508000" />
+      <Param name="fADOF_BokehIntensity" value="0.300000" />
+      <Param name="fADOF_ManualfocusDepth" value="0.001000" />
+      <Param name="fADOF_RenderResolutionMult" value="0.500000" />
+      <Param name="fADOF_ShapeCurvatureAmount" value="1.000000" />
+      <Param name="fADOF_ShapeRadius" value="20.500000" />
+      <Param name="fADOF_ShapeRotation" value="0.000000" />
+      <Param name="fADOF_SmootheningAmount" value="4.000000" />
+      <Param name="iADOF_ShapeQuality" value="5" />
+      <Param name="iADOF_ShapeVertices" value="6" />
+    </Variant>
+    <Variant index="3">
+      <Param name="bADOF_AutofocusEnable" value="1" />
+      <Param name="fADOF_AutofocusCenter" value="4.97000009e-01,5.99999987e-02" />
+      <Param name="fADOF_AutofocusRadius" value="4.63000000e-01" />
+      <Param name="fADOF_AutofocusSpeed" value="5.08000016e-01" />
+      <Param name="fADOF_BokehIntensity" value="0.300000" />
+      <Param name="fADOF_ManualfocusDepth" value="0.001000" />
+      <Param name="fADOF_RenderResolutionMult" value="0.500000" />
+      <Param name="fADOF_ShapeCurvatureAmount" value="1.000000" />
+      <Param name="fADOF_ShapeRadius" value="20.500000" />
+      <Param name="fADOF_ShapeRotation" value="0.000000" />
+      <Param name="fADOF_SmootheningAmount" value="4.000000" />
+      <Param name="iADOF_ShapeQuality" value="5" />
+      <Param name="iADOF_ShapeVertices" value="6" />
+    </Variant>
+    <Variant index="4">
+      <Param name="bADOF_AutofocusEnable" value="1" />
+      <Param name="fADOF_AutofocusRadius" value="0.600000" />
+      <Param name="fADOF_AutofocusSpeed" value="0.508000" />
+      <Param name="fADOF_BokehIntensity" value="0.300000" />
+      <Param name="fADOF_ManualfocusDepth" value="0.001000" />
+      <Param name="fADOF_RenderResolutionMult" value="0.500000" />
+      <Param name="fADOF_ShapeCurvatureAmount" value="1.000000" />
+      <Param name="fADOF_ShapeRadius" value="20.500000" />
+      <Param name="fADOF_ShapeRotation" value="0.000000" />
+      <Param name="fADOF_SmootheningAmount" value="4.000000" />
+      <Param name="iADOF_ShapeQuality" value="5" />
+      <Param name="iADOF_ShapeVertices" value="6" />
+    </Variant>
+    <Variant index="5">
+      <Param name="bADOF_AutofocusEnable" value="1" />
+      <Param name="fADOF_AutofocusCenter" value="3.28000009e-01,5.00000000e-01" />
+      <Param name="fADOF_AutofocusRadius" value="1.30999997e-01" />
+      <Param name="fADOF_AutofocusSpeed" value="0.508000" />
+      <Param name="fADOF_BokehIntensity" value="0.300000" />
+      <Param name="fADOF_ManualfocusDepth" value="0.001000" />
+      <Param name="fADOF_RenderResolutionMult" value="0.500000" />
+      <Param name="fADOF_ShapeCurvatureAmount" value="1.000000" />
+      <Param name="fADOF_ShapeRadius" value="20.500000" />
+      <Param name="fADOF_ShapeRotation" value="0.000000" />
+      <Param name="fADOF_SmootheningAmount" value="4.000000" />
+      <Param name="iADOF_ShapeQuality" value="5" />
+      <Param name="iADOF_ShapeVertices" value="6" />
+    </Variant>
+    <Variant index="6">
+      <Param name="bADOF_AutofocusEnable" value="1" />
+      <Param name="fADOF_AutofocusCenter" value="5.00000000e-01,5.99999987e-02" />
+      <Param name="fADOF_AutofocusSpeed" value="5.08000016e-01" />
+      <Param name="fADOF_BokehIntensity" value="0.300000" />
+      <Param name="fADOF_ManualfocusDepth" value="0.001000" />
+      <Param name="fADOF_RenderResolutionMult" value="0.500000" />
+      <Param name="fADOF_ShapeCurvatureAmount" value="1.000000" />
+      <Param name="fADOF_ShapeRadius" value="20.500000" />
+      <Param name="fADOF_ShapeRotation" value="0.000000" />
+      <Param name="fADOF_SmootheningAmount" value="4.000000" />
+      <Param name="iADOF_ShapeQuality" value="5" />
+      <Param name="iADOF_ShapeVertices" value="6" />
+    </Variant>
+  </Technique>
+  <Technique name="qUINT_ssr.fx" variants="3">
+    <Variant index="1">
+      <Param name="SSR_FADE_DIST" value="5.60000002e-01" />
+      <Param name="SSR_FRESNEL_EXP" value="1.00000000e+00" />
+    </Variant>
+    <Variant index="2">
+      <Param name="SSR_FADE_DIST" value="3.89999986e-01" />
+    </Variant>
+    <Variant index="3">
+      <Param name="SSR_FADE_DIST" value="5.60000002e-01" />
+      <Param name="SSR_FRESNEL_EXP" value="6.01900005e+00" />
+    </Variant>
+  </Technique>
+  <Technique name="qUINT_rtgi.fx" variants="3">
+    <Variant index="1">
+      <Param name="RT_AO_AMOUNT" value="8.47999954e+00" />
+      <Param name="RT_FADE_DEPTH" value="6.97000027e-01" />
+      <Param name="RT_FRESNEL_F0" value="1.00000000e+01" />
+      <Param name="RT_IL_AMOUNT" value="6.30999994e+00" />
+      <Param name="RT_ROUGHNESS" value="8.29999983e-01" />
+      <Param name="RT_Z_THICKNESS" value="2.00000003e-01" />
+      <Param name="SKY_COLOR_AMBIENT_MIX" value="5.29999971e-01" />
+    </Variant>
+    <Variant index="2">
+      <Param name="RT_AO_AMOUNT" value="5.25000048e+00" />
+      <Param name="RT_FADE_DEPTH" value="3.89999986e-01" />
+      <Param name="RT_FRESNEL_F0" value="1.00000000e+01" />
+      <Param name="RT_IL_AMOUNT" value="4.80999994e+00" />
+      <Param name="RT_ROUGHNESS" value="6.20000005e-01" />
+      <Param name="RT_Z_THICKNESS" value="4.00000036e-01" />
+      <Param name="SKY_COLOR_AMBIENT_MIX" value="5.29999971e-01" />
+    </Variant>
+    <Variant index="3">
+      <Param name="RT_AO_AMOUNT" value="2.22000003e+00" />
+      <Param name="RT_FADE_DEPTH" value="2.23000005e-01" />
+      <Param name="RT_IL_AMOUNT" value="4.57999992e+00" />
+      <Param name="RT_Z_THICKNESS" value="3.00000012e-01" />
+      <Param name="SKY_COLOR_AMBIENT_MIX" value="5.29999971e-01" />
+    </Variant>
+  </Technique>
+</UltimaTechniques>

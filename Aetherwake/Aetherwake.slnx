@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Aetherwake/Aetherwake.csproj" />
+  <Project Path="RunReShade/RunReShade.csproj" />
+</Solution>
