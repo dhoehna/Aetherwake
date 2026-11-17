@@ -48,7 +48,6 @@ public partial class GeneratePresetImagesViewModel : ViewModelBase
     [ObservableProperty]
     public partial bool AreImmerseProShadersPresent { get; set; }
 
-
     [ObservableProperty]
     public partial bool ShowProgressRing { get; set; }
 
@@ -121,6 +120,15 @@ public partial class GeneratePresetImagesViewModel : ViewModelBase
 
         AreImmerseProShadersPresent = File.Exists(@"RunReShade\reshade-shaders\Shaders\iMMERSE\MartysMods_RTGI_DIFFUSE.fx");
         ShowProgressRing = false;
+    }
+
+    /// <summary>
+    /// Check for immerse shaders.  This is new'ed up before ReShade is moved over.
+    /// Include a simple method to update the value
+    /// </summary>
+    public void CheckForImmerseShaders()
+    {
+        AreImmerseProShadersPresent = File.Exists(@"RunReShade\reshade-shaders\Shaders\iMMERSE\MartysMods_RTGI_DIFFUSE.fx");
     }
 
     public void SetTopLevel(TopLevel topLevel)

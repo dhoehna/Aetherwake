@@ -17,6 +17,7 @@ public partial class MainWindowViewModel : ViewModelBase
         CurrentViewModel = _findFFXIV;
         _findFFXIV.Completed += (_, _) =>
         {
+            _generatePresetImages.CheckForImmerseShaders();
             _generatePresetImages.ChangeImage();
             CurrentViewModel = _generatePresetImages;
         };

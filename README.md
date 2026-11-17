@@ -37,6 +37,8 @@ Open up the solution with VS 2026.  Rebuild.
 # Replace the example image
 You can change the image Aetherwake uses.  You can use an image from your game!
 
+The screenshot has to be 1920x1440.
+
 Do this only if you know what you are doing.
 
 ## Get the image and depth buffer

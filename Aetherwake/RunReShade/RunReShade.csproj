@@ -41,4 +41,11 @@
       <Link>BaseImage\%(RecursiveDir)%(Filename)%(Extension)</Link>
     </None>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="BaseImage\Before_bak.png" />
+    <None Remove="BaseImage\Before_bak.png" />
+    <None Remove="BaseImage\DepthAfter_bak.png" />
+    <None Remove="BaseImage\DepthAfter_bak.png" />
+  </ItemGroup>
 </Project>
