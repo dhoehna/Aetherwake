@@ -47,11 +47,11 @@ Aetherwake needs the image with NO presets applied and the Depth Buffer.  Becaus
 ### Get the image
 1. Open up FF XIV
 2. Open ReShade and turn off all presets.  We need the vanilla image
-3. In ReShade got o "Settings" and change the "Screenshot format" to "Portable Network Graphics (*.png)
+3. In ReShade go to "Settings" and change the "Screenshot format" to "Portable Network Graphics (*.png)
 4. Close ReShade
 5. Set the camera up where you want.
 6. Disable UI.
-7. screenshot!
+7. Screenshot!
 8. Do not move the camera.  Time to capture the depth buffer.
 
 ### Depth buffer
@@ -69,8 +69,8 @@ Aetherwake needs the image with NO presets applied and the Depth Buffer.  Becaus
 4. Place DepthAfter.png into RunReShade/BaseImage.  Over write the existing image
 5. Delete all images in GeneratesImages
 
-Aetherwake wil use your image for RReShade!
+Aetherwake will use your image for RReShade!
 
-# A.I. Involvment
+# A.I. Involvement
 
 I do not like AI and I did not write the whole project.  I prefer to code myself.  I did use AI only after trying to solve a problem myself.
