@@ -1,38 +1,74 @@
-# New Repo Project
+# Aetherwake
 
-The new-repo project is a default template for .NET Foundation projects. It's also probably a fine start for other .NET projects (have at it, but change the license). It contains the correct license, a decent README, and initial project structure (including a standard .gitignore for the Visual Studio family of products).
+Aetherwake is based off of [Eden ULTIMA](https://www.nexusmods.com/finalfantasy14/mods/185).
 
-You can learn more about the project from the project [Documentation](Documentation).
+Eden ULTIMA has not updated in two years and is broken because Marty McFly's shaders changed branding.  The brand change rendered Eden ULTIMA incompatible with the newer RTGI files because they changed names.
 
-## Using New Repo
+I re-made it.
 
-You can simply `git clone` this project to get started. It is recommended that you don't preserve history of the project (it isn't generally meaningful) for your repo, but make a copy and `git init` your project from source.
+Aetherwake is a tool to preview FF XIV with different image options.  Aetherwake sets up a Dx11 chain and uses the ReShade in your FF XIV folder to apply a preset to an image.  Because this runs the image through ReShade rendering can take up to 20 seconds.  The generated image is saved and Aetherwake will use any image it finds before trying to render it.
 
-Consult [CHECKLIST.md](CHECKLIST.md) for helpful suggestions on preparing your repo to go public.
+A consequence of this is the application will look like it is hanging for a bit on first start if you have no generated images.  This is because Aetherwake generates one image before moving to the next screen.
 
-## Building
+The options: Color Filter, Foundation, Brightness, Contrast, Saturation, and Ray Tracing all come from Eden ULTIMA.
 
-You don't "build" New Repo, however, this will be meaningful for many other projects.
+The Permutations and Techniques files are from Eden ULTIMA.  Eden ULTIMA ships with an XML for each combination  of options.  Aetherwake generates them on the fly.
 
-## Contributing
+Some of the techniques did not have a clean 1:1 translation to the new iMMERSE names.  AI did its best to figure that out.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for information on contributing to this project.
+# Required components
+1. ReShade installed and sitting next to ffxiv_dx11.exe
 
-This project has adopted the code of conduct defined by the [Contributor Covenant](http://contributor-covenant.org/) 
-to clarify expected behavior in our community. For more information, see the [.NET Foundation Code of Conduct](http://www.dotnetfoundation.org/code-of-conduct).
+# How to build
+Open up the solution with VS 2026.  Rebuild.
 
-## License
+# How to use
+1. Run Aetherwake.exe
+2. Tell Aetherwake where ffxiv_dx11.exe is.
+3. Wait for the image to load
+4. Change options and see the results!
 
-This project is licensed with the [MIT license](LICENSE).
+## Saving the preset
+1. Click "Save Preset" in the lower right corner.
+2. Save your preset where you want.
+3. Move it over to your ReSHade-presets folder.
+4. Open the game and use the generated preset.
 
-## .NET Foundation
+# Replace the example image
+You can change the image Aetherwake uses.  You can use an image from your game!
 
-New Repo is a [.NET Foundation project](https://dotnetfoundation.org/projects).
+Do this only if you know what you are doing.
 
-## Related Projects
+## Get the image and depth buffer
+Aetherwake needs the image with NO presets applied and the Depth Buffer.  Because the depth buffer and image are taken at different times the image Aetherwake generates might look a bit off.  It will not show up in the preset though.
 
-You should take a look at these related projects:
+### Get the image
+1. Open up FF XIV
+2. Open ReShade and turn off all presets.  We need the vanilla image
+3. In ReShade got o "Settings" and change the "Screenshot format" to "Portable Network Graphics (*.png)
+4. Close ReShade
+5. Set the camera up where you want.
+6. Disable UI.
+7. screenshot!
+8. Do not move the camera.  Time to capture the depth buffer.
 
-- [.NET Core](https://github.com/dotnet/core)
-- [ASP.NET](https://github.com/aspnet)
-- [Mono](https://github.com/mono)
+### Depth buffer
+1. Open ReShade.
+2. Go to "Home"
+3. Find DisplayDepth [DisplayDepth.fx] and enable it
+4. Still in "Home" find the options for DisplayDepth and change the "Present Type" to "Depth Map"
+5. Close ReShade
+6. Take a screenshot
+
+## Put them into Aetherwake
+1. Rename the non-DepthBuffer image to Before.png
+2. Place Before.png into RunReShade/BaseImage.  Over write the existing image
+3. Rename the DepthBuffer image to DepthAfter.png.
+4. Place DepthAfter.png into RunReShade/BaseImage.  Over write the existing image
+5. Delete all images in GeneratesImages
+
+Aetherwake wil use your image for RReShade!
+
+# A.I. Involvment
+
+I do not like AI and I did not ler it write the whole project.  I prefer to code a project myself.  I did use AI only after trying to solve a problem myself.
