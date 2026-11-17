@@ -73,4 +73,4 @@ Aetherwake wil use your image for RReShade!
 
 # A.I. Involvment
 
-I do not like AI and I did not ler it write the whole project.  I prefer to code a project myself.  I did use AI only after trying to solve a problem myself.
+I do not like AI and I did not write the whole project.  I prefer to code myself.  I did use AI only after trying to solve a problem myself.
